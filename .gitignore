@@ -202,12 +202,11 @@ cython_debug/
 .cursorindexingignore
 
 # Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Project-specific ignores
+.idea/
 venv/
 finbert_model/
-data/
 tmp_trainer/
 __MACOSX/
 FinancialPhraseBank-v1.0/
+data/raw/
