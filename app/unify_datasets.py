@@ -2,171 +2,184 @@ import pandas as pd
 import json
 import os
 
-# 创建输出目录
-os.makedirs("../data/unified", exist_ok=True)
+# 项目根目录
+BASE_DIR = r"E:/capstone_financial_nlp"
+
+# 输入路径
+RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
+OUTPUT_DIR = os.path.join(BASE_DIR, "data", "unified")
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =========================
-# 1. FPB -> unified
+# 1. FPB
 # =========================
 print("Processing FPB...")
 
-fpb_path = "../data/raw/fpb_raw.csv"
+fpb_path = os.path.join(RAW_DIR, "fpb_raw.csv")
 df_fpb = pd.read_csv(fpb_path)
 
-# 检查原始列
-print("FPB columns:", df_fpb.columns.tolist())
-
-# 情感标签统一映射
-# 你之前的数据里 label 可能已经是数字，也可能是 sentiment 文本
+# 统一列名
 if "sentiment" in df_fpb.columns:
-    sentiment_map = {
-        "negative": 0,
-        "neutral": 1,
-        "positive": 2
-    }
-    df_fpb["label"] = df_fpb["sentiment"].map(sentiment_map)
+    df_fpb = df_fpb.rename(columns={"sentiment": "label"})
 elif "label" in df_fpb.columns:
-    # 如果本来就是数字标签，就直接保留
     pass
 else:
-    raise ValueError("FPB 数据里没找到 sentiment 或 label 列")
+    raise ValueError(f"FPB 中没有找到 sentiment 或 label 列，当前列名: {list(df_fpb.columns)}")
 
-# 统一列名
 if "sentence" in df_fpb.columns:
-    df_fpb["text"] = df_fpb["sentence"]
+    df_fpb = df_fpb.rename(columns={"sentence": "text"})
 elif "text" in df_fpb.columns:
     pass
 else:
-    raise ValueError("FPB 数据里没找到 sentence 或 text 列")
+    raise ValueError(f"FPB 中没有找到 sentence 或 text 列，当前列名: {list(df_fpb.columns)}")
 
-df_fpb_unified = pd.DataFrame({
-    "id": range(len(df_fpb)),
-    "text": df_fpb["text"],
-    "label": df_fpb["label"],
-    "source_dataset": "FPB"
-})
+# 数字标签映射为文字标签
+label_map = {
+    0: "negative",
+    1: "neutral",
+    2: "positive"
+}
+df_fpb["label"] = df_fpb["label"].map(label_map)
 
-fpb_out = "data/unified/fpb_unified.csv"
-df_fpb_unified.to_csv(fpb_out, index=False, encoding="utf-8-sig")
-print(f"Saved: {fpb_out}")
-print(df_fpb_unified.head(), "\n")
+df_fpb["id"] = ["fpb_" + str(i) for i in range(len(df_fpb))]
+df_fpb["source_dataset"] = "FPB"
 
+df_fpb_unified = df_fpb[["id", "text", "label", "source_dataset"]]
+df_fpb_unified.to_csv(os.path.join(OUTPUT_DIR, "fpb_unified.csv"), index=False, encoding="utf-8-sig")
+
+print("FPB done.")
+print(df_fpb_unified.head(3))
+print(df_fpb_unified["label"].value_counts())
+print()
 
 # =========================
-# 2. FiQA -> unified
+# 2. FiQA
 # =========================
 print("Processing FiQA...")
 
-# 注意：已修改为你新下载的训练集路径
-fiqa_path = "../data/raw/fiqa_train.csv"
-df_fiqa = pd.read_csv(fiqa_path)
+fiqa_train_path = os.path.join(RAW_DIR, "fiqa_train.csv")
+fiqa_test_path = os.path.join(RAW_DIR, "fiqa_test.csv")
+fiqa_val_path = os.path.join(RAW_DIR, "fiqa_validation.csv")
 
-print("FiQA columns:", df_fiqa.columns.tolist())
+df_fiqa_train = pd.read_csv(fiqa_train_path)
+df_fiqa_test = pd.read_csv(fiqa_test_path)
+df_fiqa_val = pd.read_csv(fiqa_val_path)
 
-# FiQA 一般有 score，可以把情感分数映射成三分类
-# 规则可先这样：
-# score < 0  -> negative(0)
-# score = 0  -> neutral(1)
-# score > 0  -> positive(2)
+df_fiqa = pd.concat([df_fiqa_train, df_fiqa_test, df_fiqa_val], ignore_index=True)
 
-# 注意：已将 score 修改为 sentiment_score
-if "sentiment_score" not in df_fiqa.columns:
-    raise ValueError("FiQA 数据里没找到 sentiment_score 列")
-
-def map_fiqa_score_to_label(score):
-    if score < 0:
-        return 0
-    elif score == 0:
-        return 1
+def map_fiqa_label(score):
+    if score > 0:
+        return "positive"
+    elif score < 0:
+        return "negative"
     else:
-        return 2
+        return "neutral"
 
-# 注意：已将 score 修改为 sentiment_score
-df_fiqa["label"] = df_fiqa["sentiment_score"].apply(map_fiqa_score_to_label)
+# id
+if "id" in df_fiqa.columns:
+    df_fiqa["id"] = df_fiqa["id"].astype(str)
+elif "_id" in df_fiqa.columns:
+    df_fiqa["id"] = df_fiqa["_id"].astype(str)
+else:
+    df_fiqa["id"] = ["fiqa_" + str(i) for i in range(len(df_fiqa))]
 
-if "sentence" in df_fiqa.columns:
+# text
+if "text" in df_fiqa.columns:
+    df_fiqa["text"] = df_fiqa["text"]
+elif "sentence" in df_fiqa.columns:
     df_fiqa["text"] = df_fiqa["sentence"]
 else:
-    raise ValueError("FiQA 数据里没找到 sentence 列")
+    raise ValueError(f"FiQA 中没有找到 text 或 sentence 列，当前列名: {list(df_fiqa.columns)}")
 
-# id 优先用原始 _id，没有的话重新编号
-if "_id" in df_fiqa.columns:
-    unified_id = df_fiqa["_id"]
+# label
+if "sentiment_score" in df_fiqa.columns:
+    df_fiqa["label"] = df_fiqa["sentiment_score"].apply(map_fiqa_label)
+elif "score" in df_fiqa.columns:
+    df_fiqa["label"] = df_fiqa["score"].apply(map_fiqa_label)
+elif "label" in df_fiqa.columns:
+    df_fiqa["label"] = df_fiqa["label"]
 else:
-    unified_id = range(len(df_fiqa))
+    raise ValueError(f"FiQA 中没有找到 sentiment_score / score / label 列，当前列名: {list(df_fiqa.columns)}")
 
-df_fiqa_unified = pd.DataFrame({
-    "id": unified_id,
-    "text": df_fiqa["text"],
-    "label": df_fiqa["label"],
-    "source_dataset": "FiQA"
-})
+df_fiqa["source_dataset"] = "FiQA"
 
-fiqa_out = "data/unified/fiqa_unified.csv"
-df_fiqa_unified.to_csv(fiqa_out, index=False, encoding="utf-8-sig")
-print(f"Saved: {fiqa_out}")
-print(df_fiqa_unified.head(), "\n")
+df_fiqa_unified = df_fiqa[["id", "text", "label", "source_dataset"]]
+df_fiqa_unified.to_csv(os.path.join(OUTPUT_DIR, "fiqa_unified.csv"), index=False, encoding="utf-8-sig")
 
-
+print("FiQA done.")
+print(df_fiqa_unified.head(3))
+print()
 # =========================
-# 3. FinQA -> unified
+# 3. FinQA
 # =========================
 print("Processing FinQA...")
 
-finqa_path = "../data/raw/train.json"
+finqa_path = os.path.join(RAW_DIR, "train.json")
+
 with open(finqa_path, "r", encoding="utf-8") as f:
     finqa_data = json.load(f)
 
-print("Number of FinQA samples:", len(finqa_data))
+finqa_rows = []
 
-rows = []
 for i, item in enumerate(finqa_data):
-    question = str(item.get("question", "")).strip()
-    context = str(item.get("pre_text", "")).strip()
+    question = str(item.get("qa", {}).get("question", "")).strip()
 
-    # pre_text 有时候是 list，需要拼接
-    if isinstance(item.get("pre_text", ""), list):
-        context = " ".join(item.get("pre_text", []))
-
-    # 有些 FinQA 还会有 post_text
+    pre_text = item.get("pre_text", "")
     post_text = item.get("post_text", "")
+
+    if isinstance(pre_text, list):
+        pre_text = " ".join(pre_text)
     if isinstance(post_text, list):
         post_text = " ".join(post_text)
-    else:
-        post_text = str(post_text).strip()
 
-    full_context = (context + " " + post_text).strip()
-    text = (question + " " + full_context).strip()
+    context = (str(pre_text) + " " + str(post_text)).strip()
+    answer = item.get("qa", {}).get("answer", None)
 
-    answer = str(item.get("answer", "")).strip()
+    if answer is not None:
+        answer = str(answer).strip()
 
-    rows.append({
-        "id": i,
+    text = f"Question: {question} Context: {context}"
+
+    finqa_rows.append({
+        "id": f"finqa_{i}",
         "text": text,
         "label": answer,
         "source_dataset": "FinQA"
     })
 
-df_finqa_unified = pd.DataFrame(rows)
+df_finqa_unified = pd.DataFrame(finqa_rows)
 
-finqa_out = "data/unified/finqa_unified.csv"
-df_finqa_unified.to_csv(finqa_out, index=False, encoding="utf-8-sig")
-print(f"Saved: {finqa_out}")
-print(df_finqa_unified.head(), "\n")
+# 删除原始数据里 answer 为空的样本
+df_finqa_unified = df_finqa_unified.dropna(subset=["label"])
+df_finqa_unified = df_finqa_unified[df_finqa_unified["label"].astype(str).str.strip() != ""]
 
+df_finqa_unified.to_csv(
+    os.path.join(OUTPUT_DIR, "finqa_unified.csv"),
+    index=False,
+    encoding="utf-8-sig"
+)
+
+print("FinQA done.")
+print(df_finqa_unified.head(3))
+print("Remaining rows:", len(df_finqa_unified))
+print("Label null count:", df_finqa_unified["label"].isna().sum())
+print()
 
 # =========================
-# 4. 简单验证
+# 4. Final Check
 # =========================
-print("===== Validation =====")
-for name, df in [
-    ("FPB", df_fpb_unified),
-    ("FiQA", df_fiqa_unified),
-    ("FinQA", df_finqa_unified)
+print("===== Final Check =====")
+
+for file_name in [
+    "fpb_unified.csv",
+    "fiqa_unified.csv",
+    "finqa_unified.csv"
 ]:
-    print(f"\n{name}")
+    file_path = os.path.join(OUTPUT_DIR, file_name)
+    df = pd.read_csv(file_path)
+    print(file_name)
     print("Shape:", df.shape)
-    print("Columns:", df.columns.tolist())
-    print(df.head(3))
-    print("Missing values:")
-    print(df.isnull().sum())
+    print("Columns:", list(df.columns))
+    print(df.head(2))
+    print("-" * 50)

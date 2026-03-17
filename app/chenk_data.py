@@ -1,14 +1,21 @@
-import pandas as pd
+import json
 
-# 请把这里的路径换成你电脑上 fiqa_train.csv 的实际相对路径
-# 比如可能是 "data/fiqa_train.csv"
-file_path = "../data/raw/fiqa_train.csv"
+finqa_path = r"E:\capstone_financial_nlp\data\raw\train.json"
 
-# 读取数据
-df = pd.read_csv(file_path)
+with open(finqa_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-# 打印所有的列名
-print("这个文件包含的列有：", df.columns.tolist())
+empty_count = 0
 
-# 顺便打印前两行数据，看看具体内容长什么样
-print("\n前两行数据是：\n", df.head(2))
+for i, item in enumerate(data):
+    answer = item.get("qa", {}).get("answer", None)
+
+    if answer is None or str(answer).strip() == "":
+        empty_count += 1
+        print(f"Index: {i}")
+        print(f"ID: {item.get('id')}")
+        print(f"Question: {item.get('qa', {}).get('question')}")
+        print(f"Answer: {answer}")
+        print("-" * 50)
+
+print("Total empty answers:", empty_count)
