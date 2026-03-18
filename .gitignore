@@ -208,5 +208,3 @@ venv/
 results/models/finbert_model/
 tmp_trainer/
 __MACOSX/
-data/raw/fpb/FinancialPhraseBank-v1.0/
-data/raw/
