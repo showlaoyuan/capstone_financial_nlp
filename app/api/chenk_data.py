@@ -1,6 +1,8 @@
 import json
+from pathlib import Path
 
-finqa_path = r"/data/raw/train.json"
+BASE_DIR = Path(__file__).resolve().parents[2]
+finqa_path = BASE_DIR / "data" / "raw" / "finqa" / "train.json"
 
 with open(finqa_path, "r", encoding="utf-8") as f:
     data = json.load(f)

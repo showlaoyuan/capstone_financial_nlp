@@ -1,7 +1,10 @@
+from pathlib import Path
 import pandas as pd
 
-input_path = "../data/raw/Sentences_50Agree.txt"
-output_path = "data/fpb_raw.csv"
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+input_path = BASE_DIR / "data" / "raw" / "fpb" / "Sentences_50Agree.txt"
+output_path = BASE_DIR / "data" / "raw" / "fpb" / "fpb_raw.csv"
 
 rows = []
 
@@ -24,7 +27,6 @@ label_map = {
     "negative": 0,
     "neutral": 1,
     "positive": 2
-
 }
 
 df["label"] = df["label_text"].map(label_map)

@@ -1,4 +1,4 @@
-sentence,snippets,target,sentiment_score,aspects,format,label
+﻿sentence,snippets,target,sentiment_score,aspects,format,label
 Teva: FDA Approves Generic Version of AstraZeneca Heartburn Drug,['FDA Approves'],AstraZeneca,0.242,['Corporate/Regulatory'],headline,0
 Glencore sees Tripoli-based NOC as sole legal seller of Libyan oil,['as sole legal seller of Libyan oil'],Glencore,0.037,['Corporate/Legal'],headline,1
 "You know that back seat? Don't sit in it. - $TSLA -> Tesla recalls 2,700 Model X cars https://t.co/7J0Gwz89ZC","['Tesla recalls 2,700 Model X cars']",TSLA,-0.319,['Corporate/Risks/Product Recall'],post,2

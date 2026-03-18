@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -8,13 +9,19 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
+# 项目根目录
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+# 数据路径
+data_path = BASE_DIR / "data" / "processed" / "financial_sentiment.csv"
+
+print("Using file:", data_path)
 
 # 读取数据
-df = pd.read_csv("../data/financial_sentiment.csv")
+df = pd.read_csv(data_path)
 
 X = df["sentence"]
 y = df["label"]
-
 
 # 划分训练测试集
 X_train, X_test, y_train, y_test = train_test_split(
@@ -25,7 +32,6 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42
 )
 
-
 # TF-IDF 向量化
 vectorizer = TfidfVectorizer(
     stop_words="english",
@@ -35,16 +41,13 @@ vectorizer = TfidfVectorizer(
 X_train_vec = vectorizer.fit_transform(X_train)
 X_test_vec = vectorizer.transform(X_test)
 
-
 # Logistic Regression
 model = LogisticRegression(max_iter=1000)
 
 model.fit(X_train_vec, y_train)
 
-
 # 预测
 y_pred = model.predict(X_test_vec)
-
 
 # 评估
 print("Accuracy:")
