@@ -205,8 +205,8 @@ cython_debug/
 # Project-specific ignores
 .idea/
 venv/
-finbert_model/
+results/models/finbert_model/
 tmp_trainer/
 __MACOSX/
-FinancialPhraseBank-v1.0/
+data/raw/fpb/FinancialPhraseBank-v1.0/
 data/raw/

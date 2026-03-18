@@ -1,0 +1,4 @@
+﻿dataset_name,split,rows,columns,label_column,text_column,task_type
+Financial PhraseBank,train,2264,"sentence, label",label,sentence,金融情感分类
+FiQA,train,14166,"query-id, corpus-id, score",待确认,待确认,金融情感分析/相关金融文本任务（需看字段）
+FinQA,未加载成功,未知,未成功读取,未成功读取,未成功读取,金融问答/表格推理（待后续单独处理）
