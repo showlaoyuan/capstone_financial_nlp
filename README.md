@@ -8,9 +8,10 @@ The project began as a small-scale Week 1 prototype before mentor feedback and w
 
 ## Current Repository State
 
-- Old Week 1 prototype files are preserved in `archive/week1_before_mentor_feedback/`.
-- Current documentation is being reorganized to clearly separate archived prototype materials from the revised project direction.
-- Revised data and results will be added later after the pipeline is rerun in PyCharm and the outputs are verified.
+- Old Week 1 prototype files and scripts are preserved in `archive/week1_before_mentor_feedback/`.
+- The original prototype scripts were archived to avoid confusion with the revised workflow.
+- The current revised scripts will be added later after the project is rerun in PyCharm and the outputs are verified.
+- Revised data and results will be added later after the PyCharm rerun and verification process.
 
 ## Revised Project Direction
 
@@ -87,4 +88,4 @@ capstone_financial_nlp/
 Archived Week 1 prototype files are stored in `archive/week1_before_mentor_feedback/`.
 These archived prototype files are kept for traceability and are not final experimental results.
 
-Revised data, revised 5000-sample workflow outputs, and final verified results will be added later after the PyCharm rerun and verification process.
+The current revised scripts, revised 5000-sample workflow outputs, and final verified results will be added later after the PyCharm rerun and verification process.

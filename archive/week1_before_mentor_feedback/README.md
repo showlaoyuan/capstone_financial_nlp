@@ -1,10 +1,11 @@
 # Week 1 Prototype Archive
 
-This folder contains Week 1 prototype files created before mentor feedback.
+This folder contains Week 1 prototype files and scripts created before mentor feedback.
 
 ## Background
 
 These archived files come from the early prototype stage of the project.
+They include old prototype scripts that were previously stored under `app/api/`.
 At that stage, the work focused on:
 
 - FPB
@@ -25,3 +26,4 @@ After mentor feedback, the project direction was revised into a more rigorous 4-
 
 These archived files are kept for traceability.
 They are not final experimental results.
+They are also not the final revised pipeline.

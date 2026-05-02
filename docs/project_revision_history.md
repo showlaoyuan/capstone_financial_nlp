@@ -23,4 +23,6 @@ This revised direction emphasizes:
 - cost and latency tracking
 - result organization
 
+Before the revised PyCharm rerun, the old Week 1 prototype scripts were archived from `app/api/` into `archive/week1_before_mentor_feedback/app/api/` to reduce confusion between prototype code and the future revised workflow.
+
 The revised 5000-sample dataset and final results will be added later after the pipeline is rerun in PyCharm and the outputs are verified.
