@@ -1,0 +1,897 @@
+﻿sample_id,dataset,reference_answer,prompt_a_prediction,prompt_a_answer_correct,prompt_a_format_valid,prompt_b_prediction,prompt_b_answer_correct,prompt_b_format_valid,comparison_category
+fpb-full-000025,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000040,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-000063,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-000080,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000101,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000126,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000142,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000178,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000235,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000264,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000271,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000296,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000298,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000319,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000347,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000352,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000396,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000400,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-000427,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000442,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000474,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000479,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-000488,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000494,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000527,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-000540,fpb,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fpb-full-000545,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000546,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000581,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000582,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000593,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000634,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000645,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000681,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000687,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000692,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000695,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000696,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-000710,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000712,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000737,fpb,negative,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000796,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000875,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000900,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000980,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000990,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000999,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001040,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001054,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001062,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001085,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001087,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001109,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001122,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001127,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001131,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-001137,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001186,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-001224,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001262,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001273,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001290,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001372,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001401,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001435,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-001439,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001477,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001493,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001547,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001559,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001575,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001613,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001664,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001667,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-001701,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-001794,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001799,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-001862,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001869,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001870,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001954,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001989,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001990,fpb,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fpb-full-002017,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002018,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002042,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002046,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002070,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-002071,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002081,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-002097,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002115,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002135,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002153,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002171,fpb,positive,negative,False,True,neutral,False,True,both_wrong
+fpb-full-002175,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002196,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002263,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002268,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002274,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002275,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002316,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002364,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002385,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002393,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002395,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-002412,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002413,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-002457,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002464,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002513,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-002581,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002587,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002605,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002657,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002705,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002798,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-002801,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002807,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002829,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002851,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-002866,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002868,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002887,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002895,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002935,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-002976,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003002,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003043,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003080,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003085,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003086,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003104,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003144,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003168,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003171,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003235,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003299,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003311,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003315,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003332,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003363,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003381,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003384,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003432,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003435,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003451,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003470,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003487,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003505,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003519,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003523,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003605,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003634,fpb,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fpb-full-003667,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003675,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003702,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003732,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003745,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003746,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003752,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003774,fpb,neutral,positive,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-003787,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003790,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003802,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003817,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003821,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003824,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003837,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003839,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003865,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003943,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003948,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-004054,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004160,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004170,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004175,fpb,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fpb-full-004190,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-004197,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004198,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004211,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004220,fpb,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fpb-full-004288,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-004296,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004322,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004358,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004401,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004437,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004444,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004449,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004460,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-004559,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004565,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004686,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004698,fpb,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fpb-full-004723,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004739,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004804,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004835,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004844,fpb,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000014,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000040,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-test-000041,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000047,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000055,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000057,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000064,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000067,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-test-000069,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000076,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000079,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000095,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000097,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000104,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000106,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-test-000112,fiqa_sa,negative,negative,True,True,positive,False,True,prompt_a_only_correct
+fiqa_sa-test-000117,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000119,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000125,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000127,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000140,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000142,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000146,fiqa_sa,positive,positive,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-test-000147,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-test-000153,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000154,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000159,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-test-000169,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000174,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000177,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000187,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000188,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000191,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000195,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-test-000206,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000211,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-test-000214,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000223,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000228,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-test-000233,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000014,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000015,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000016,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000024,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000027,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000030,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000031,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000041,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000048,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000050,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000051,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000054,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000059,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000061,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000063,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000070,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000075,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000089,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000092,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000097,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000099,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000100,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000118,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000123,fiqa_sa,positive,positive,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000124,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000129,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000140,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000144,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000145,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000155,fiqa_sa,negative,neutral,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000174,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000176,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000181,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000183,fiqa_sa,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000203,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000205,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-train-000206,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000210,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000234,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000239,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000247,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000254,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000259,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000262,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000263,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000272,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000274,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000276,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000280,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000282,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000284,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-train-000289,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000291,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000303,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000307,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000310,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000312,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000317,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000318,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000325,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000339,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000342,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000343,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000345,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000351,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000356,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000357,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000367,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000373,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000374,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000386,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000399,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000414,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000419,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000428,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000429,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000436,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000452,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000454,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000458,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000461,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000463,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000464,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000467,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000475,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000477,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000478,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000486,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000495,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000500,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000504,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000506,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000513,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000514,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000515,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000519,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000523,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000526,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000530,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000542,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000552,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000553,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000556,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000574,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000578,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000579,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000593,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000598,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000615,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000634,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000637,fiqa_sa,positive,neutral,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000646,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000648,fiqa_sa,negative,positive,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000664,fiqa_sa,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000674,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000683,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000685,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000688,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000691,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-train-000693,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000695,fiqa_sa,negative,neutral,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000705,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000707,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000714,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000727,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000735,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000744,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000751,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000752,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000761,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000768,fiqa_sa,negative,neutral,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000769,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000781,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000783,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000787,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000791,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000799,fiqa_sa,negative,negative,True,True,positive,False,True,prompt_a_only_correct
+fiqa_sa-train-000804,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000806,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000811,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000003,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000007,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000008,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000013,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000015,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000018,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000027,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000028,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000029,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000041,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000047,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000051,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000054,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000064,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000066,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-valid-000074,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000077,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000086,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000099,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-valid-000107,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+finqa-test-000036,finqa,112.0,$0.168,False,True,0.168,False,True,both_wrong
+finqa-test-000042,finqa,0.1216,"The cumulative total return for Goldman Sachs Group Inc. from 12/26/08 to 12/31/13 is ((248.36 - 100) / 100) * 100 = 148.36%.  
+The cumulative total return for the S&P 500 index over the same period is ((236.20 - 100) / 100) * 100 = 136.20%.  
+The difference is 148.36% - 136.20% = 12.16 percentage points.  
+
+12.16%",True,False,"The Goldman Sachs Group Inc. cumulative total return for the five-year period ending 12/31/13 is 148.36% (from $100 to $248.36).  
+The S&P 500 Index cumulative total return for the same period is 136.20% (from $100 to $236.20).  
+The difference is 148.36% - 136.20% = 12.16 percentage points.  
+
+12.16%",True,False,both_correct
+finqa-test-000096,finqa,364400.0,362400,False,True,362400,False,True,both_wrong
+finqa-test-000263,finqa,100.9,$101.9 million,False,False,$100.9 million,True,False,prompt_b_only_correct
+finqa-test-000273,finqa,0.13785,(3277 - 2880) / 2880 = 0.137847... ≈ 13.8%,True,False,(3277 - 2880) / 2880 * 100 = 13.78%,True,False,both_correct
+finqa-test-000413,finqa,-6.3,$-61.1,False,True,$-61.1,False,True,both_wrong
+finqa-test-000430,finqa,0.81275,-18.73%,False,True,-18.73%,False,True,both_wrong
+finqa-test-000483,finqa,0.9827,ROI = (198.27 - 100.00) / 100.00 = 98.27%,True,False,ROI = (198.27 - 100.00) / 100.00 = 98.27%,True,False,both_correct
+finqa-test-000490,finqa,0.5804,"To find the percentage of pipeline barrels handled that consisted of crude oil trunk lines in 2007, use the table values:
+
+- Crude oil trunk lines in 2007: 1451 thousand barrels per day
+- Total in 2007: 2500 thousand barrels per day
+
+Percentage = (1451 / 2500) × 100 = 58.04%
+
+Answer: 58.04%",True,False,(1451 / 2500) * 100 = 58.04%,True,False,both_correct
+finqa-test-000535,finqa,51.0,The change in the allowance for doubtful accounts in 2008 was an increase of $51.0 million.,True,False,$51.0,True,True,both_correct
+finqa-test-000562,finqa,9437.0,"The decrease from payments due in 3-5 years ($6,040) to more than 5 years ($15,477) is not a decrease; it is an increase of $9,437.",True,False,($ 15477 - $ 6040) = $ 9437,True,False,both_correct
+finqa-test-000577,finqa,28597891.58,"$28,598,895.58",False,True,"$28,598,895.58",False,True,both_wrong
+finqa-test-000581,finqa,-0.05497,-5.50%,True,True,-5.50%,True,True,both_correct
+finqa-test-000592,finqa,1.5679,"The ratio of flight attendants to pilots is 25,400 to 16,200, which simplifies to 127:81.",False,False,1.57,True,True,prompt_b_only_correct
+finqa-test-000599,finqa,0.2646,ROI = (79.67 - 63.00) / 63.00 = 0.2646 = 26.46%,True,False,-20.92%,False,True,prompt_a_only_correct
+finqa-test-000609,finqa,0.25431,(1279337 - 1019953) / 1019953 * 100 = 25.43%,True,False,-25.4%,False,True,prompt_a_only_correct
+finqa-test-000683,finqa,0.80085,(4250 - 2360) / 2360 = 0.8008 = 80.08%,True,False,(4250 - 2360) / 2360 = 0.8008 = 80.1%,True,False,both_correct
+finqa-test-000721,finqa,0.45082,0.451,True,True,0.451,True,True,both_correct
+finqa-test-000825,finqa,20704.0,$ 20704,True,True,20704,True,True,both_correct
+finqa-test-000850,finqa,-0.07937,-7.94%,True,True,-7.94%,True,True,both_correct
+finqa-test-000869,finqa,6823.33333,"The average net sales for MFC between 2014 and 2016 is $6,823 million.",True,False,"$6,823",True,True,both_correct
+finqa-test-000930,finqa,0.70203,70.2%,True,True,70.2%,True,True,both_correct
+finqa-test-000932,finqa,-0.0561,The difference is -5.61 percentage points.,False,False,"The total cumulative return for United Parcel Service Inc. from 12/31/2007 to 12/31/2012 is 21.46%.  
+The total cumulative return for the Dow Jones Transportation Average over the same period is 27.07%.  
+The difference is 27.07% - 21.46% = 5.61%.  
+
+5.61%",False,False,both_wrong
+finqa-test-000934,finqa,0.13423,"The net impairment was -$16.9 million in 2012 and -$14.9 million in 2011, so the change is -$2.0 million.",False,False,-2.0,False,True,both_wrong
+finqa-test-001089,finqa,-29.0,The change in free cash flow from 2005 to 2007 is an increase of $253 million.,False,False,$253,False,True,both_wrong
+finqa-test-001091,finqa,0.08207,The industrial packaging profit margin in 2004 was 8.2% (373 / 4545).,False,False,0.082,True,True,prompt_b_only_correct
+finqa-test-001121,finqa,0.54108,56.4%,False,True,0.541,True,True,prompt_b_only_correct
+finqa-test-001139,finqa,3462694.66,"$108,388,388.40 - $104,917,884.54 = $3,470,503.86",False,False,"$3,443,000.00",False,True,both_wrong
+finqa-train-000021,finqa,0.04598,4.6%,True,True,4.6%,True,True,both_correct
+finqa-train-000091,finqa,-1579.0,"($1,579)",True,True,"($1,579)",True,True,both_correct
+finqa-train-000094,finqa,4236.12,"The context does not provide the percentage of segment net sales accounted for by the five largest customers in 2008. It only states that in 2007, aggregate net sales to the segment’s five largest customers accounted for approximately 42% of the segment’s net sales.",False,False,"Based on the provided context, the information about the five largest customers' share of segment net sales is only given for 2007 (42%) for the segment discussed before the table (likely the Mobile Devices segment). There is no information provided about the five largest customers' share of sales for 2008 for any segment.
+
+Therefore, the answer cannot be determined from the given report context and table.",False,False,both_wrong
+finqa-train-000124,finqa,0.07013,(1648 - 1540) / 1540 = 0.07013 = 7.0%,True,False,(1648 - 1540) / 1540 = 0.07013 → 7.0%,True,False,both_correct
+finqa-train-000146,finqa,0.588,58.8%,True,True,58.8%,True,True,both_correct
+finqa-train-000230,finqa,-0.23888,-23.89%,True,True,-23.89%,True,True,both_correct
+finqa-train-000233,finqa,-124.0,($124),True,True,($124),True,True,both_correct
+finqa-train-000240,finqa,0.12176,12.18%,True,True,12.18%,True,True,both_correct
+finqa-train-000301,finqa,0.01339,0.0134,True,True,0.01339,True,True,both_correct
+finqa-train-000409,finqa,0.04229,(1732.8 - 1662.5) / 1662.5 * 100 = 4.23%,True,False,(1732.8 - 1662.5) / 1662.5 * 100 = 4.23%,True,False,both_correct
+finqa-train-000521,finqa,0.82022,The percent of the number of options vested to the total is 82.0%.,True,False,71.9%,False,True,prompt_a_only_correct
+finqa-train-000538,finqa,yes,Yes,True,True,Yes,True,True,both_correct
+finqa-train-000556,finqa,0.72953,The change in percentage of consolidated net sales from 2006 to 2008 was an increase of 12 percentage points (from 21% in 2006 to 33% in 2008).,False,False,The change in percentage of consolidated net sales from 2006 to 2008 was an increase of 12 percentage points.,False,False,both_wrong
+finqa-train-000557,finqa,373000.0,"1,373,000",False,True,"1,309,000",False,True,both_wrong
+finqa-train-000641,finqa,180.04,"The total for U.S. estimated benefit payments for 2024-2028 is $900.2 million.  
+The number of years is 5.  
+Average = 900.2 / 5 = 180.04  
+
+Final answer: 180.04",True,False,$180.04,True,True,both_correct
+finqa-train-000665,finqa,0.36833,36.83%,True,True,36.83%,True,True,both_correct
+finqa-train-000749,finqa,0.237,"(18.79 - 15.19) / 15.19 = 0.2370, or 23.70%",True,False,((18.79 - 15.19) / 15.19) = 0.236998025,True,False,both_correct
+finqa-train-000759,finqa,0.3118,"As of December 31, 2011, the total future minimum sponsorship and other marketing payments were $169,514 thousand, and the payment for 2012 was $52,855 thousand.  
+The percent for 2012 is (52,855 / 169,514) * 100 = 31.18%.  
+
+31.18%",True,False,"As of December 31, 2011, the total future minimum sponsorship and other marketing payments were $169,514 thousand. The table does not provide the total as of December 31, 2012, so the percent cannot be determined from the given information.",False,False,prompt_a_only_correct
+finqa-train-000766,finqa,38316.32653,"Total operating expenses in 2017 = $7,510 / 19.6% = $38,316.33 million",True,False,"$38,316 million",True,False,both_correct
+finqa-train-000809,finqa,0.91083,"The gain was $28.6 million on a sale price of $60.0 million.  
+Percentage gain = (28.6 / 60.0) × 100 = 47.67%",False,False,"The gain was $28.6 million on a sale price of $60.0 million.  
+Percentage gain = (28.6 / 60.0) × 100 = 47.67%  
+
+47.67%",False,False,both_wrong
+finqa-train-000857,finqa,0.82571,(289 / (6179 - 5829)) * 100 = 82.57%,True,False,(289 / (6179 - 5829)) = (289 / 350) = 0.8257,True,False,both_correct
+finqa-train-000898,finqa,0.1231,"The question asks for the percent of gains lost due to foreign currency hedges. From the table, the ""other comprehensive income (loss)"" for foreign currency hedges is -22.8 (a loss), and the total ""other comprehensive income (loss)"" is 81.1. The percent of gains lost is calculated as (22.8 / 81.1) * 100 = 28.1%.",False,False,-22.6%,False,True,both_wrong
+finqa-train-000942,finqa,1.8,1.8,True,True,1.8,True,True,both_correct
+finqa-train-000973,finqa,-0.06105,-5.98%,False,True,-15.5%,False,True,both_wrong
+finqa-train-000975,finqa,-1.0,$1,False,True,$1,False,True,both_wrong
+finqa-train-000981,finqa,0.09235,"The interest net of capitalized interest increased by $53,225 thousand from 2016 to 2017.",False,False,"The increase in interest net of capitalized interest from 2016 to 2017 is $23,275 thousand.",False,False,both_wrong
+finqa-train-001018,finqa,0.17413,[(404.1 / 2320.7) * 100] = 17.41%,True,False,17.4%,True,True,both_correct
+finqa-train-001048,finqa,3.31,The 6-year total shareholder return on Apple Inc. is 331%.,True,False,The 6-year total shareholder return on Apple Inc. is 331%.,True,False,both_correct
+finqa-train-001148,finqa,0.00267,The percentage of unconsolidated units among the total units is (269 / 100864) * 100 = 0.27%.,True,False,0.27%,True,True,both_correct
+finqa-train-001241,finqa,0.39843,Goodwill as a percentage of net assets acquired is 39.8%.,True,False,"Goodwill is $61.0 million and net assets acquired is $153.1 million.  
+Percentage = (61.0 / 153.1) × 100 = 39.84%  
+
+39.84%",True,False,both_correct
+finqa-train-001246,finqa,0.86917,86.9%,True,True,86.91%,False,True,prompt_a_only_correct
+finqa-train-001304,finqa,0.97146,97.1%,True,True,97.15%,True,True,both_correct
+finqa-train-001347,finqa,18576.0,"The balance changed from a $39,573 thousand receivable in 2006 to a $20,997 thousand receivable in 2007, representing a net cash outflow of $18,576 thousand.",True,False,"The balance changed from a $39,573 thousand receivable in 2006 to a $20,997 thousand receivable in 2007, representing a net cash outflow of $18,576 thousand.",True,False,both_correct
+finqa-train-001356,finqa,-0.13249,-13.25%,True,True,-13.25%,True,True,both_correct
+finqa-train-001404,finqa,0.20228,The percentage growth in net earnings from 2003 to 2004 is 20.2%.,True,False,188.0%,False,True,prompt_a_only_correct
+finqa-train-001416,finqa,29.6,$29.6,True,True,$29.6,True,True,both_correct
+finqa-train-001442,finqa,-0.10714,The decline in other net income from 2016 to 2018 was $3 million.,False,False,The decline in other net income from 2016 to 2018 was $3 million.,False,False,both_wrong
+finqa-train-001455,finqa,30.69,222.47,False,True,222.47,False,True,both_wrong
+finqa-train-001554,finqa,0.4878,The 1-year return of Apple Inc. from September 2013 to September 2014 is 48.78%.,True,False,48.78%,True,True,both_correct
+finqa-train-001573,finqa,543.194,$543.194,True,True,543.19,True,True,both_correct
+finqa-train-001680,finqa,432.5,$432.5,True,True,$432.5,True,True,both_correct
+finqa-train-001696,finqa,0.4881,0.488,True,True,0.488,True,True,both_correct
+finqa-train-001740,finqa,1.2379,(223.79 - 100) / 100 = 1.2379 = 123.79%,True,False,123.79%,True,True,both_correct
+finqa-train-001772,finqa,0.80672,(860 - 476) / 476 * 100 = 80.67%,True,False,(860 - 476) / 476 * 100 = 80.67%,True,False,both_correct
+finqa-train-001794,finqa,0.14936,The percentage change in the redeemable non-controlling interest in 2012 was 14.9%.,True,False,(80.8 - 70.3) / 70.3 * 100 = 14.94%,True,False,both_correct
+finqa-train-001902,finqa,0.17978,18.0%,True,True,(9.6 / 53.4) * 100 = 17.98%,True,False,both_correct
+finqa-train-001925,finqa,0.39397,-39.39%,False,True,39.39%,False,True,both_wrong
+finqa-train-001955,finqa,1366.0,"The variance between the mortgage loans average and period-end balance for 2013 is $1,366 million, for 2012 is $3,204 million, and for 2011 is -$369 million.",False,False,-1366,False,True,both_wrong
+finqa-train-001979,finqa,0.05201,"(991.1 - 942.1) / 942.1 = 0.0520, or 5.2%",True,False,"(991.1 - 942.1) / 942.1 = 0.0520, or 5.2%",True,False,both_correct
+finqa-train-002123,finqa,0.12599,((1759 + 1642 + 992 + 1466) / 46505) * 100 = 12.60%,True,False,"5,859 / 46,505 = 0.1260 → 12.60%",True,False,both_correct
+finqa-train-002159,finqa,141891.66667,"$141,892",True,True,"$141,892",True,True,both_correct
+finqa-train-002163,finqa,-5.55556,-5.56%,True,True,(30.6 - 28.9) / 30.6 = 1.7 / 30.6 ≈ 0.05556 → 5.56%,False,False,prompt_a_only_correct
+finqa-train-002181,finqa,-0.10456,-10.45%,False,True,-10.45%,False,True,both_wrong
+finqa-train-002189,finqa,0.05303,-5.60%,False,True,-5.60%,False,True,both_wrong
+finqa-train-002260,finqa,1.0,$1.0,True,True,$1.0,True,True,both_correct
+finqa-train-002276,finqa,0.11852,(604 - 540) / 540 = 0.118518... ≈ 11.85%,True,False,(604 - 540) / 540 = 0.1185185 ≈ 11.85%,True,False,both_correct
+finqa-train-002410,finqa,0.007,0.7%,True,True,0.7%,True,True,both_correct
+finqa-train-002417,finqa,0.94624,89.25%,False,True,89.25%,False,True,both_wrong
+finqa-train-002428,finqa,184.0,$ 151,False,True,$ 151,False,True,both_wrong
+finqa-train-002431,finqa,5.3,$7.2 billion,False,False,$7.2 billion,False,False,both_wrong
+finqa-train-002437,finqa,0.1802,(846 + 1507) / 13058 = 2353 / 13058 ≈ 0.1802 = 18.02%,True,False,"(846 + 1507) / 13058 = 2353 / 13058 ≈ 0.1802, or 18.02%",True,False,both_correct
+finqa-train-002449,finqa,-6.0,-6,True,True,-6,True,True,both_correct
+finqa-train-002506,finqa,47501.7,"$47,510.80",False,True,"$47,525.30",False,True,both_wrong
+finqa-train-002527,finqa,0.23103,The percent change in free cash flow from 2015 to 2016 is 23.1%.,True,False,(929.8 - 755.3) / 755.3 = 0.2310 → 23.1%,True,False,both_correct
+finqa-train-002546,finqa,95.0,The change in millions of buildings from 2016 to 2017 is $95.,True,False,95,True,True,both_correct
+finqa-train-002649,finqa,20453.614,"$8,181",False,True,"$8,181",False,True,both_wrong
+finqa-train-002689,finqa,-0.25758,-25.76%,True,True,-25.76%,True,True,both_correct
+finqa-train-002747,finqa,0.1811,0.1811,True,True,0.1811,True,True,both_correct
+finqa-train-002771,finqa,60.0,(263 - 203) / 203 = 0.295566... ≈ 29.56%,False,False,-29.56%,False,True,both_wrong
+finqa-train-002799,finqa,260.90909,"Based on the context provided, the number of shares outstanding as of February 8, 2019, cannot be determined. The text states there were 73 stockholders of record for Class A common stock and approximately 287 holders of record for Class B common stock, but it does not provide the total number of shares outstanding.",False,False,"1,100",False,True,both_wrong
+finqa-train-002812,finqa,-0.01919,-1.92%,True,True,-1.92%,True,True,both_correct
+finqa-train-002880,finqa,0.17895,0.1789,True,True,0.1789,True,True,both_correct
+finqa-train-002884,finqa,0.05782,The percentage increase in inventories balance due to the adoption of LIFO in 2012 is 5.79%.,False,False,The percentage increase in inventories balance due to the adoption of LIFO in 2012 is 5.78%.,True,False,prompt_b_only_correct
+finqa-train-003143,finqa,0.39362,(275.1 - 197.4) / 197.4 = 0.3936 = 39.36%,True,False,(275.1 - 197.4) / 197.4 * 100 = 39.36%,True,False,both_correct
+finqa-train-003289,finqa,58227848.10127,"58,227,848",True,True,58.2 million,False,False,prompt_a_only_correct
+finqa-train-003319,finqa,0.0581,4.35%,False,True,5.81%,True,True,prompt_b_only_correct
+finqa-train-003383,finqa,34.5,"The credit risk balance for 2010 is $80,481 million (carrying value on consolidated balance sheets). The additional collateral not netted in the table is $18.0 billion received. If this were considered, the credit risk balance would be reduced by $18.0 billion, resulting in $80.481 billion - $18.0 billion = $62.481 billion. The reduction amount is $18.0 billion.
+
+Final answer: 18.0",False,False,0.018,False,True,both_wrong
+finqa-train-003386,finqa,599.0,320,False,True,320,False,True,both_wrong
+finqa-train-003428,finqa,0.63636,"Inventory in 2005: $165 million  
+Inventory in 2006: $270 million  
+Change: (270 - 165) / 165 = 105 / 165 = 0.63636...  
+Percentage change: 63.64%",True,False,( (270 - 165) / 165 ) * 100 = 63.64%,True,False,both_correct
+finqa-train-003474,finqa,0.68381,"The number of shares outstanding at December 31, 2009 was 116,677, and at December 31, 2010 it was 196,462.  
+Percentage change = ((196,462 - 116,677) / 116,677) * 100 = (79,785 / 116,677) * 100 ≈ 68.38%.  
+
+68.38%",True,False,-100%,False,True,prompt_a_only_correct
+finqa-train-003520,finqa,-0.01,-1%,True,True,-1%,True,True,both_correct
+finqa-train-003581,finqa,0.13661,The tax rate on the gain on sale of discontinued operations before income taxes is 13.66%.,True,False,13.66%,True,True,both_correct
+finqa-train-003625,finqa,2.0,0.02,False,True,0.02,False,True,both_wrong
+finqa-train-003652,finqa,0.26786,"The non-interest revenue in 2008 was $6,550 million, and total revenues net of interest expense were $24,453 million.  
+(6,550 / 24,453) × 100 ≈ 26.8%  
+
+Final answer: 26.8%",True,False,(6550 / 24453) * 100 = 26.79%,True,False,both_correct
+finqa-train-003656,finqa,5.43333,$16.3,False,True,$16.3,False,True,both_wrong
+finqa-train-003817,finqa,0.40538,0.405,True,True,0.405,True,True,both_correct
+finqa-train-003938,finqa,51.11111,-33.82%,False,True,-33.82%,False,True,both_wrong
+finqa-train-003940,finqa,0.30145,"The total capability of Entergy Corporation is 21,513 MW. Entergy Gulf States has a total capability of 6,485 MW. The portion is 6,485 / 21,513 ≈ 0.3015, or 30.15%.",True,False,0.3015,True,True,both_correct
+finqa-train-003942,finqa,856.0,"The information relative to 2012 costs is incorrect because the table shows future minimum lease payments under noncancelable operating leases as of September 28, 2013, not actual rent expense for 2012. The correct information for 2012 rent expense under all operating leases is $488 million, as stated in the context.",False,False,"The context states that rent expense under all operating leases was $488 million in 2012, not the $613 million shown for 2015 in the table. The table shows future minimum lease payments under noncancelable operating leases as of September 28, 2013, so it does not provide 2012 costs. The correct 2012 rent expense is $488 million.",False,False,both_wrong
+finqa-train-003943,finqa,0.07827,7.94%,False,True,7.9%,False,True,both_wrong
+finqa-train-003949,finqa,49.9598,$2.01,False,True,$2.01,False,True,both_wrong
+finqa-train-003954,finqa,0.91453,"The operating income increased from $234 million in 2010 to $448 million in 2011.  
+Increase = 448 - 234 = 214  
+Percent increase = (214 / 234) * 100 ≈ 91.5%  
+
+91.5%",True,False,(448 - 234) / 234 = 0.9145 = 91.45%,True,False,both_correct
+finqa-train-003968,finqa,yes,Yes,True,True,Yes,True,True,both_correct
+finqa-train-004007,finqa,11310.0,"Tangible assets are property and equipment, which is $300 thousand. Total assets acquired are $11,010 thousand.  
+Percentage = (300 / 11010) * 100 = 2.72%  
+
+2.72%",False,False,0.03,False,True,both_wrong
+finqa-train-004036,finqa,0.53599,{(3.5 / 6.53) * 100:.2f}%,False,False,"{ ""answer"": ""53.6%"" }",True,False,prompt_b_only_correct
+finqa-train-004101,finqa,288.0,"To stabilize, the community must achieve 90% occupancy for 90 days.  
+Acklen West End has 320 units.  
+90% of 320 = 0.90 × 320 = 288 units.  
+
+288",True,False,288,True,True,both_correct
+finqa-train-004135,finqa,-108.0,"The total rental expense under the company’s operating leases was $239 million in 2017. For 2018, the identifiable future minimum payments with non-cancelable terms in excess of one year are $131 million, and the company estimates payments under vehicle leases (excluded from the table) will approximate $62 million in 2018. Therefore, the total rental expense for 2018 is $131 million + $62 million = $193 million. The change from 2017 to 2018 is $239 million - $193 million = $46 million decrease.
+
+-46",False,False,$108,False,True,both_wrong
+finqa-train-004137,finqa,0.29622,(617 - 476) / 476 = 0.2962 = 29.62%,True,False,29.6%,True,True,both_correct
+finqa-train-004145,finqa,0.38477,0.385,True,True,0.3848,True,True,both_correct
+finqa-train-004151,finqa,1.49655,The ratio of the foreign pension plan to the domestic pension plan in 2019 is 21.7 / 14.5 ≈ 1.4966,True,False,(21.7 / 14.5) = 1.49655... ≈ 1.5,True,False,both_correct
+finqa-train-004176,finqa,0.0,0,True,True,0,True,True,both_correct
+finqa-train-004304,finqa,0.8913,The percent of the unrecognized income tax benefit that could impact the effective income tax rate if recognized in 2013 is 100%.,False,False,0.0,False,True,both_wrong
+finqa-train-004390,finqa,300.0,"Based on the provided context, the table shows the impact of changing the depreciable life by one year, but it does not provide the base annual depreciation expense or the total accumulated depreciation over 15 years. Therefore, the question cannot be answered from the given information.",False,False,$450,False,True,both_wrong
+finqa-train-004393,finqa,0.12821,-11.36%,False,True,-11.36%,False,True,both_wrong
+finqa-train-004407,finqa,1.36724,The percent change in shares issued under the 2000 employee stock purchase plan from 2002 to 2003 is 136.7%.,True,False,-57.7%,False,True,prompt_a_only_correct
+finqa-train-004417,finqa,0.1765,(7.05 - 6.32) / 6.32 = 0.1155 = 11.55%,False,False,(7.05 - 6.32) / 6.32 = 0.1155 → 11.55%,False,False,both_wrong
+finqa-train-004448,finqa,409.9,$ 282.2 + $ 127.7 = $ 409.9,True,False,$ 409.9,True,True,both_correct
+finqa-train-004513,finqa,-0.6021,"The five-year cumulative total return for United Parcel Service Inc. as of 12/31/07 is 22.64% (from $100 to $122.64).  
+The five-year cumulative total return for the S&P 500 Index as of 12/31/07 is 82.85% (from $100 to $182.85).  
+The difference is 82.85% - 22.64% = 60.21 percentage points.  
+
+60.21 percentage points",False,False,"The five-year cumulative total return for United Parcel Service Inc. as of 12/31/07 is 22.64% (from $100.00 to $122.64).  
+The five-year cumulative total return for the S&P 500 Index as of 12/31/07 is 82.85% (from $100.00 to $182.85).  
+The difference is 22.64% - 82.85% = -60.21 percentage points.  
+
+-60.21",False,False,both_wrong
+finqa-train-004545,finqa,-2.0,-2,True,True,-2,True,True,both_correct
+finqa-train-004562,finqa,0.39271,29.6%,False,True,29.15%,False,True,both_wrong
+finqa-train-004590,finqa,0.31324,"The question asks for the percentage of total brokerage payables at December 31, 2017 that were receivables from customers. However, receivables from customers are not part of payables; they are part of receivables. The question seems to be incorrectly phrased, as it mixes receivables and payables. Based on the table, at December 31, 2017, receivables from customers were $19,215 million, and total brokerage payables were $61,342 million. If we interpret the question as asking for receivables from customers as a percentage of total brokerage payables (though not a standard financial metric), the calculation is: (19,215 / 61,342) * 100 = 31.32%. 
+
+But given the context, it's more likely the question intended to ask for receivables from customers as a percentage of total brokerage receivables, or perhaps payables to customers as a percentage of total brokerage payables. Since the question explicitly says ""total brokerage payables"" and ""receivables from customers,"" I'll provide the calculation as asked.
+
+Final answer: 31.32%",True,False,0.00%,False,True,prompt_a_only_correct
+finqa-train-004680,finqa,68.8,$35.8 million and $33.0 million,False,False,$68.8 million,True,False,prompt_b_only_correct
+finqa-train-004725,finqa,36.66667,The average sales inducements deferred from 2009 to 2011 is (20 + 31 + 59) / 3 = 36.67 million.,True,False,(20 + 31 + 59) / 3 = 36.67,True,False,both_correct
+finqa-train-004799,finqa,-0.6038,"The cumulative total shareholder return for Masco common stock from December 31, 2005 to December 31, 2010 is -48.49% (from $100 to $51.51).  
+The cumulative total shareholder return for the S&P 500 index over the same period is +11.89% (from $100 to $111.89).  
+The difference is -48.49% - 11.89% = -60.38 percentage points.  
+
+-60.38%",True,False,-60.38%,True,True,both_correct
+finqa-train-004800,finqa,9914.0,"$9,914",True,True,9914,True,True,both_correct
+finqa-train-004860,finqa,5.0,5%,True,True,5%,True,True,both_correct
+finqa-train-004871,finqa,0.71795,The percent of purchases on the total account balance is 71.8%.,True,False,0.718,True,True,both_correct
+finqa-train-004894,finqa,146.67571,"(3636 - 1474) / 1474 = 1.4667, so 146.67%",False,False,(3636 - 1474) / 1474 * 100 = 146.68%,True,False,prompt_b_only_correct
+finqa-train-004899,finqa,0.65672,"The total printing papers sales in 2006 were $6,700 million. North American printing papers net sales in 2006 were $4.4 billion, which is $4,400 million. The percentage is (4400 / 6700) * 100 = 65.67%.",True,False,{(4.4 / 6.7) * 100:.1f}%,True,False,both_correct
+finqa-train-004929,finqa,-0.2509,-25.10%,False,True,-25.09%,True,True,prompt_b_only_correct
+finqa-train-004951,finqa,0.01124,0.02%,False,True,1.12%,True,True,prompt_b_only_correct
+finqa-train-005000,finqa,0.31325,[(109.0 - 83.0) / 83.0] * 100 = 31.33%,True,False,[(109.0 - 83.0) / 83.0] * 100 = 31.33%,True,False,both_correct
+finqa-train-005047,finqa,92.50108,The percentage of total debt that was long-term debt in 2014-2015 is 93.7% for 2014 and 91.4% for 2015.,False,False,(1610.3 + 1612.9) / (1762.3 + 1722.2) * 100 = 92.5%,True,False,prompt_b_only_correct
+finqa-train-005118,finqa,14.5,$14.5,True,True,14.5,True,True,both_correct
+finqa-train-005161,finqa,0.05405,(39 - 37) / 37 * 100 = 5.41%,True,False,5.41%,True,True,both_correct
+finqa-train-005186,finqa,0.1014,10.14%,True,True,10.14%,True,True,both_correct
+finqa-train-005214,finqa,0.40604,40.61%,False,True,40.61%,False,True,both_wrong
+finqa-train-005259,finqa,-0.04268,"The total grant-date fair value of shares vested in 2016 was $62.8 million, and in 2015 it was $65.6 million.  
+Percentage change = ((62.8 - 65.6) / 65.6) * 100 = (-2.8 / 65.6) * 100 ≈ -4.27%  
+
+-4.27%",True,False,-4.27%,True,True,both_correct
+finqa-train-005286,finqa,0.0538,"Credit derivatives for 2017 were $869 million, and foreign exchange derivatives were $16,151 million.  
+(869 / 16151) * 100 ≈ 5.38%  
+
+5.38%",True,False,"8.69 / 16151 = 0.000538, so 0.05%",True,False,both_correct
+finqa-train-005376,finqa,0.81873,0.82,True,True,0.82,True,True,both_correct
+finqa-train-005462,finqa,2731.0,"1,624,000",False,True,"1,068",False,True,both_wrong
+finqa-train-005468,finqa,1215.0,"The total coal capacity is 545 + 670 = 1,215 MW.",True,False,62 + 545 + 670 = 1277,False,False,prompt_a_only_correct
+finqa-train-005721,finqa,8129.0,"$8,129 million",True,False,"$ 8,129",True,True,both_correct
+finqa-train-005743,finqa,0.01515,(22290 / 1471449) * 100 = 1.515%,True,False,"2,229 / 1,471,449 = 0.001515 (approximately 0.15%)",False,False,prompt_a_only_correct
+finqa-train-005747,finqa,0.38793,38.79%,True,True,38.79%,True,True,both_correct
+finqa-train-005749,finqa,-130.0,-130,True,True,964 - 834 = 130,False,False,prompt_a_only_correct
+finqa-train-005757,finqa,0.07424,4.9%,False,True,0.0742,True,True,prompt_b_only_correct
+finqa-train-005765,finqa,-0.04039,((2162 - 2253) / 2253) * 100 = -4.04%,True,False,-4.04%,True,True,both_correct
+finqa-train-005768,finqa,716.0,$716,True,True,"$699 to $1,415",False,False,prompt_a_only_correct
+finqa-train-005783,finqa,-0.024,The percentage of operating income related to smokeless products decreased from 12.5% in 2012 to 12.2% in 2013.,False,False,The percentage of operating income related to smokeless products decreased from 12.5% in 2012 to 12.2% in 2013.,False,False,both_wrong
+finqa-train-005793,finqa,13.52,0%,False,True,0%,False,True,both_wrong
+finqa-train-005815,finqa,0.34726,"For 2011: (3,500 / 10,000) * 100 = 35.0%  
+For 2010: (457 / 1,316) * 100 ≈ 34.7%",True,False,"For 2011: (3500 / 10000) * 100 = 35.0%  
+For 2010: (457 / 1316) * 100 ≈ 34.7%",True,False,both_correct
+finqa-train-005834,finqa,13.0,The change in total other earnings from 2008 to 2009 was $13 million.,True,False,The change in total other earnings from 2008 to 2009 is an increase of $13 million.,True,False,both_correct
+finqa-train-005958,finqa,0.36104,(1151 / 3188) * 100 = 36.10%,True,False,0.361,True,True,both_correct
+finqa-train-006024,finqa,19867.0,"The total fair value of time-vested restricted stock units vested during 2009, 2008 and 2007 was $29,535, $26,674 and $3,392, respectively.  
+Average = (29,535 + 26,674 + 3,392) / 3 = 59,601 / 3 = 19,867.  
+
+19,867",True,False,"The total fair value of time-vested restricted stock units vested during 2009, 2008, and 2007 is $29,535, $26,674, and $3,392, respectively.  
+Average = (29,535 + 26,674 + 3,392) / 3 = 59,601 / 3 = 19,867.  
+
+19,867",True,False,both_correct
+finqa-train-006042,finqa,-0.27706,-27.71%,True,True,-27.71%,True,True,both_correct
+finqa-train-006106,finqa,0.00551,"(10038 - 9983) / 9983 = 0.00551, or 0.55%",True,False,0.55%,True,True,both_correct
+finqa-train-006150,finqa,-34.0,-94,False,True,-94,False,True,both_wrong
+finqa-train-006159,finqa,1747.0,"The operating profit for the total segment was $474 million in 2008 and $1,091 million in 2009, an increase of $617 million.",False,False,-439,False,True,both_wrong
+finqa-train-006172,finqa,18.2,$18.2,True,True,$18.2,True,True,both_correct
+finqa-train-006209,finqa,3239.33333,"$9,718",False,True,"$3,239",True,True,prompt_b_only_correct
+finqa-valid-000036,finqa,4.85514,Ratio = 11798 / 2430 = 4.86,True,False,"The ratio of statutory capital and surplus to statutory net income in 2010 is calculated as:
+
+Bermuda subsidiaries: 11798 / 2430 ≈ 4.85  
+U.S. subsidiaries: 6266 / 1047 ≈ 5.99
+
+Combined: (11798 + 6266) / (2430 + 1047) = 18064 / 3477 ≈ 5.19
+
+5.19",False,False,prompt_a_only_correct
+finqa-valid-000037,finqa,-0.0339,-3.39%,True,True,-3.39%,True,True,both_correct
+finqa-valid-000051,finqa,4.0,4.0,True,True,4,True,True,both_correct
+finqa-valid-000064,finqa,0.78253,"The portion of total notes payable from U.S. commercial paper is $412.0 million out of $526.5 million, which is approximately 78.3%.",True,False,"The portion of total notes payable from U.S. commercial paper is $412.0 million out of $526.5 million, which is 78.3%.",True,False,both_correct
+finqa-valid-000146,finqa,2022.0,$ 2022,True,True,$ 2022,True,True,both_correct
+finqa-valid-000154,finqa,18.57143,The ratio of breast implant receivables to breast implant liabilities in 2005 is 130 / 7 = 18.57.,True,False,0.054,False,True,prompt_a_only_correct
+finqa-valid-000273,finqa,0.62912,The percentage increase in total accumulated other comprehensive losses from 2013 to 2014 is 62.9%.,True,False,(6826 - 4190) / 4190 * 100 = 62.91%,True,False,both_correct
+finqa-valid-000324,finqa,0.6748,The total return of JPMorgan Chase & Co. stock over the five-year period is 67.48%.,True,False,$ 67.48,False,True,prompt_a_only_correct
+finqa-valid-000340,finqa,-33.84,The performance difference is -$33.84.,False,False,The performance difference is -$33.84.,False,False,both_wrong
+finqa-valid-000381,finqa,0.33924,33.92%,True,True,33.92%,True,True,both_correct
+finqa-valid-000453,finqa,0.15118,8.3 / 54.9 = 0.15118... ≈ 15.12%,True,False,15.2%,False,True,prompt_a_only_correct
+finqa-valid-000458,finqa,643822.41,"$643,822.41",True,True,"$643,822.41",True,True,both_correct
+finqa-valid-000496,finqa,0.21923,(99832 - 81881) / 81881 * 100 = 21.92%,True,False,(99832 - 81881) / 81881 * 100 = 21.92%,True,False,both_correct
+finqa-valid-000542,finqa,180041.58004,"$180,041.58",True,True,"$180,041.58",True,True,both_correct
+finqa-valid-000605,finqa,3.50739,0.1424 / 0.0406 = 3.5073891625615764,True,False,0.1424 / 0.0406 = 3.507,True,False,both_correct
+finqa-valid-000659,finqa,37.75428,$37.76,False,True,$37.76,False,True,both_wrong
+finqa-valid-000709,finqa,0.06198,The net rental expense increased by $15 million from 2007 to 2009.,False,False,$ 15,False,True,both_wrong
+finqa-valid-000730,finqa,6.62857,$6.63,True,True,2.32,False,True,prompt_a_only_correct
+finqa-valid-000813,finqa,416.0,"The operating profit was $17 million in 2008 and $433 million in 2009, so the variation is an increase of $416 million.",True,False,-416,False,True,prompt_a_only_correct
+finqa-valid-000817,finqa,0.64756,$ 226 million,False,False,$ 226 million,False,False,both_wrong
+finqa-valid-000877,finqa,0.01713,"The context and table do not provide the prior year figure for common stock under stock and option plans, so the percentage change cannot be calculated.",False,False,The question is incomplete and cannot be answered with the provided context and table.,False,False,both_wrong
+financial_mmlu_ko-test-000002,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000004,financial_mmlu_ko,4,3,False,True,4,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000007,financial_mmlu_ko,4,5,False,True,5,False,True,both_wrong
+financial_mmlu_ko-test-000009,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000010,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000012,financial_mmlu_ko,5,4,False,True,5,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000013,financial_mmlu_ko,5,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000015,financial_mmlu_ko,5,5,True,True,5,True,True,both_correct
+financial_mmlu_ko-test-000020,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000024,financial_mmlu_ko,5,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000025,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000027,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000028,financial_mmlu_ko,5,5,True,True,5,True,True,both_correct
+financial_mmlu_ko-test-000030,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000031,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000032,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000033,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000035,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000036,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000038,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000040,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000041,financial_mmlu_ko,1,1,True,True,3,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000043,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000044,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000048,financial_mmlu_ko,1,1,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000052,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000054,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000057,financial_mmlu_ko,3,1,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000059,financial_mmlu_ko,1,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000065,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000068,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000070,financial_mmlu_ko,3,3,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000079,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000083,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000088,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000091,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000092,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000095,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000096,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000097,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000100,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000102,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000104,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000105,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000106,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000108,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000109,financial_mmlu_ko,2,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000113,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000116,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000117,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000118,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000120,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000121,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000124,financial_mmlu_ko,1,1,True,True,2,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000126,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000128,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000130,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000131,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000134,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000136,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000138,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000141,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000143,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000145,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000147,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000151,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000152,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000153,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000156,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000158,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000160,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000161,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000162,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000164,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000167,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000169,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000172,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000173,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000175,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000177,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000181,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000182,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000188,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000192,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000193,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000194,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000197,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000200,financial_mmlu_ko,3,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000203,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000210,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000214,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000216,financial_mmlu_ko,3,3,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000219,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000221,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000223,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000224,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000225,financial_mmlu_ko,1,1,True,True,2,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000227,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000229,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000230,financial_mmlu_ko,1,2,False,True,1,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000234,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000235,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000236,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000237,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000241,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000242,financial_mmlu_ko,1,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000243,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000244,financial_mmlu_ko,4,2,False,True,4,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000245,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000246,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000247,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000249,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000252,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000253,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000257,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000259,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000260,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000262,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000264,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000268,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000270,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000271,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000273,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000274,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000275,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000279,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000281,financial_mmlu_ko,2,2,True,True,3,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000282,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000283,financial_mmlu_ko,2,1,False,True,2,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000284,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000285,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000288,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000291,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000293,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000301,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000302,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000309,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000310,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000312,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000313,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000316,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000319,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000320,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000322,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000323,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000325,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000326,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000331,financial_mmlu_ko,1,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000332,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000334,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000336,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000339,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000348,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000353,financial_mmlu_ko,1,1,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000354,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000356,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000357,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000358,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000362,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000368,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000369,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000370,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000371,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000372,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000373,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000374,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000380,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000385,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000387,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000388,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000390,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000391,financial_mmlu_ko,2,2,True,True,3,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000392,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000394,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000395,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000397,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000399,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000402,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000404,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000405,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000406,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000413,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000417,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000419,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000423,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000429,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000430,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000432,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000436,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000438,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000439,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000442,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000444,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000445,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000446,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000447,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000448,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000450,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000452,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000455,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct

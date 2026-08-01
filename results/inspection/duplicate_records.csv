@@ -1,0 +1,475 @@
+﻿dataset,split,check_type,column,row_index,value_preview
+fpb,full,full_row,ALL_COLUMNS,1098,sentence=The issuer is solely responsible for the content of this announcement . || label=neutral
+fpb,full,full_row,ALL_COLUMNS,1099,sentence=The issuer is solely responsible for the content of this announcement . || label=neutral
+fpb,full,full_row,ALL_COLUMNS,1415,"sentence=The report profiles 614 companies including many key and niche players worldwide such as Black & Decker Corporation , Fiskars Corporation , Fiskars Brands , Inc. , Husqvarna Outdoor Products Inc. , K+S Group , Ryobi Technologies , Inc. , The Scotts Miracle-Gro Company , and Van Group , Inc."
+fpb,full,full_row,ALL_COLUMNS,1416,"sentence=The report profiles 614 companies including many key and niche players worldwide such as Black & Decker Corporation , Fiskars Corporation , Fiskars Brands , Inc. , Husqvarna Outdoor Products Inc. , K+S Group , Ryobi Technologies , Inc. , The Scotts Miracle-Gro Company , and Van Group , Inc."
+fpb,full,full_row,ALL_COLUMNS,2395,sentence=Ahlstrom 's share is quoted on the NASDAQ OMX Helsinki . || label=neutral
+fpb,full,full_row,ALL_COLUMNS,2396,sentence=Ahlstrom 's share is quoted on the NASDAQ OMX Helsinki . || label=neutral
+fpb,full,full_row,ALL_COLUMNS,2566,"sentence=SSH Communications Security Corporation is headquartered in Helsinki , Finland . || label=neutral"
+fpb,full,full_row,ALL_COLUMNS,2567,"sentence=SSH Communications Security Corporation is headquartered in Helsinki , Finland . || label=neutral"
+fpb,full,full_row,ALL_COLUMNS,3093,"sentence=Proha Plc ( Euronext :7327 ) announced today ( 19 May ) that its fully-owned subsidiary , Safran Software Solutions AS , has agreed to sell its 49 % share of Safran North America LLC to a SNA Holding AS , an investment group based in Norway . || label=neutral"
+fpb,full,full_row,ALL_COLUMNS,3094,"sentence=Proha Plc ( Euronext :7327 ) announced today ( 19 May ) that its fully-owned subsidiary , Safran Software Solutions AS , has agreed to sell its 49 % share of Safran North America LLC to a SNA Holding AS , an investment group based in Norway . || label=neutral"
+fpb,full,full_row,ALL_COLUMNS,3205,"sentence=The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and information technology , as well as catering and househo"
+fpb,full,full_row,ALL_COLUMNS,3206,"sentence=The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and information technology , as well as catering and househo"
+fpb,full,column,sentence,78,TELECOMWORLDWIRE-7 April 2006-TJ Group Plc sells stake in Morning Digital Design Oy Finnish IT company TJ Group Plc said on Friday 7 April that it had signed an agreement on selling its shares of Morning Digital Design Oy to Edita Oyj .
+fpb,full,column,sentence,79,TELECOMWORLDWIRE-7 April 2006-TJ Group Plc sells stake in Morning Digital Design Oy Finnish IT company TJ Group Plc said on Friday 7 April that it had signed an agreement on selling its shares of Morning Digital Design Oy to Edita Oyj .
+fpb,full,column,sentence,788,The Group 's business is balanced by its broad portfolio of sports and presence in all major markets .
+fpb,full,column,sentence,789,The Group 's business is balanced by its broad portfolio of sports and presence in all major markets .
+fpb,full,column,sentence,1098,The issuer is solely responsible for the content of this announcement .
+fpb,full,column,sentence,1099,The issuer is solely responsible for the content of this announcement .
+fpb,full,column,sentence,1415,"The report profiles 614 companies including many key and niche players worldwide such as Black & Decker Corporation , Fiskars Corporation , Fiskars Brands , Inc. , Husqvarna Outdoor Products Inc. , K+S Group , Ryobi Technologies , Inc. , The Scotts Miracle-Gro Company , and Van Group , Inc. ."
+fpb,full,column,sentence,1416,"The report profiles 614 companies including many key and niche players worldwide such as Black & Decker Corporation , Fiskars Corporation , Fiskars Brands , Inc. , Husqvarna Outdoor Products Inc. , K+S Group , Ryobi Technologies , Inc. , The Scotts Miracle-Gro Company , and Van Group , Inc. ."
+fpb,full,column,sentence,2395,Ahlstrom 's share is quoted on the NASDAQ OMX Helsinki .
+fpb,full,column,sentence,2396,Ahlstrom 's share is quoted on the NASDAQ OMX Helsinki .
+fpb,full,column,sentence,2566,"SSH Communications Security Corporation is headquartered in Helsinki , Finland ."
+fpb,full,column,sentence,2567,"SSH Communications Security Corporation is headquartered in Helsinki , Finland ."
+fpb,full,column,sentence,3093,"Proha Plc ( Euronext :7327 ) announced today ( 19 May ) that its fully-owned subsidiary , Safran Software Solutions AS , has agreed to sell its 49 % share of Safran North America LLC to a SNA Holding AS , an investment group based in Norway ."
+fpb,full,column,sentence,3094,"Proha Plc ( Euronext :7327 ) announced today ( 19 May ) that its fully-owned subsidiary , Safran Software Solutions AS , has agreed to sell its 49 % share of Safran North America LLC to a SNA Holding AS , an investment group based in Norway ."
+fpb,full,column,sentence,3205,"The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and information technology , as well as catering and households ."
+fpb,full,column,sentence,3206,"The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and information technology , as well as catering and households ."
+fiqa_sa,train,column,_id,25,1063
+fiqa_sa,train,column,_id,26,1063
+fiqa_sa,train,column,_id,27,1065
+fiqa_sa,train,column,_id,28,1065
+fiqa_sa,train,column,_id,31,1077
+fiqa_sa,train,column,_id,32,1077
+fiqa_sa,train,column,_id,33,1077
+fiqa_sa,train,column,_id,34,1079
+fiqa_sa,train,column,_id,35,1079
+fiqa_sa,train,column,_id,43,1122
+fiqa_sa,train,column,_id,44,1122
+fiqa_sa,train,column,_id,49,1143
+fiqa_sa,train,column,_id,50,1143
+fiqa_sa,train,column,_id,60,1183
+fiqa_sa,train,column,_id,61,1183
+fiqa_sa,train,column,_id,66,1202
+fiqa_sa,train,column,_id,67,1202
+fiqa_sa,train,column,_id,70,1217
+fiqa_sa,train,column,_id,71,1217
+fiqa_sa,train,column,_id,78,1239
+fiqa_sa,train,column,_id,79,1239
+fiqa_sa,train,column,_id,80,1241
+fiqa_sa,train,column,_id,81,1241
+fiqa_sa,train,column,_id,93,1297
+fiqa_sa,train,column,_id,94,1297
+fiqa_sa,train,column,_id,108,1349
+fiqa_sa,train,column,_id,109,1349
+fiqa_sa,train,column,_id,113,1356
+fiqa_sa,train,column,_id,114,1356
+fiqa_sa,train,column,_id,115,1360
+fiqa_sa,train,column,_id,116,1360
+fiqa_sa,train,column,_id,117,1360
+fiqa_sa,train,column,_id,141,1443
+fiqa_sa,train,column,_id,142,1443
+fiqa_sa,train,column,_id,147,1469
+fiqa_sa,train,column,_id,148,1469
+fiqa_sa,train,column,_id,149,1475
+fiqa_sa,train,column,_id,150,1475
+fiqa_sa,train,column,_id,151,1476
+fiqa_sa,train,column,_id,152,1476
+fiqa_sa,train,column,_id,154,1492
+fiqa_sa,train,column,_id,155,1492
+fiqa_sa,train,column,_id,173,158
+fiqa_sa,train,column,_id,174,158
+fiqa_sa,train,column,_id,189,1635
+fiqa_sa,train,column,_id,190,1635
+fiqa_sa,train,column,_id,195,1663
+fiqa_sa,train,column,_id,196,1663
+fiqa_sa,train,column,_id,197,1663
+fiqa_sa,train,column,_id,198,1669
+fiqa_sa,train,column,_id,199,1669
+fiqa_sa,train,column,_id,200,1670
+fiqa_sa,train,column,_id,201,1670
+fiqa_sa,train,column,_id,205,1699
+fiqa_sa,train,column,_id,206,1699
+fiqa_sa,train,column,_id,208,1708
+fiqa_sa,train,column,_id,209,1708
+fiqa_sa,train,column,_id,211,1712
+fiqa_sa,train,column,_id,212,1712
+fiqa_sa,train,column,_id,217,1735
+fiqa_sa,train,column,_id,218,1735
+fiqa_sa,train,column,_id,233,184
+fiqa_sa,train,column,_id,234,184
+fiqa_sa,train,column,_id,244,218
+fiqa_sa,train,column,_id,245,218
+fiqa_sa,train,column,_id,252,241
+fiqa_sa,train,column,_id,253,241
+fiqa_sa,train,column,_id,254,241
+fiqa_sa,train,column,_id,257,246
+fiqa_sa,train,column,_id,258,246
+fiqa_sa,train,column,_id,262,253
+fiqa_sa,train,column,_id,263,253
+fiqa_sa,train,column,_id,265,258
+fiqa_sa,train,column,_id,266,258
+fiqa_sa,train,column,_id,268,264
+fiqa_sa,train,column,_id,269,264
+fiqa_sa,train,column,_id,273,275
+fiqa_sa,train,column,_id,274,275
+fiqa_sa,train,column,_id,281,302
+fiqa_sa,train,column,_id,282,302
+fiqa_sa,train,column,_id,285,315
+fiqa_sa,train,column,_id,286,315
+fiqa_sa,train,column,_id,288,32
+fiqa_sa,train,column,_id,289,32
+fiqa_sa,train,column,_id,295,345
+fiqa_sa,train,column,_id,296,345
+fiqa_sa,train,column,_id,299,358
+fiqa_sa,train,column,_id,300,358
+fiqa_sa,train,column,_id,322,427
+fiqa_sa,train,column,_id,323,427
+fiqa_sa,train,column,_id,326,435
+fiqa_sa,train,column,_id,327,435
+fiqa_sa,train,column,_id,329,444
+fiqa_sa,train,column,_id,330,444
+fiqa_sa,train,column,_id,335,466
+fiqa_sa,train,column,_id,336,466
+fiqa_sa,train,column,_id,341,477
+fiqa_sa,train,column,_id,342,477
+fiqa_sa,train,column,_id,345,49
+fiqa_sa,train,column,_id,346,49
+fiqa_sa,train,column,sentence,25,"Are Aviva plc, Direct Line Insurance Group PLC And Admiral Group plc Set To Soar?"
+fiqa_sa,train,column,sentence,26,"Are Aviva plc, Direct Line Insurance Group PLC And Admiral Group plc Set To Soar?"
+fiqa_sa,train,column,sentence,27,StanChart and RBS struggle in Bank of England stress tests
+fiqa_sa,train,column,sentence,28,StanChart and RBS struggle in Bank of England stress tests
+fiqa_sa,train,column,sentence,31,"Sainsbury's, Asda, Tesco and Morrisons will all cut petrol prices as oil falls ..."
+fiqa_sa,train,column,sentence,32,"Sainsbury's, Asda, Tesco and Morrisons will all cut petrol prices as oil falls ..."
+fiqa_sa,train,column,sentence,33,"Sainsbury's, Asda, Tesco and Morrisons will all cut petrol prices as oil falls ..."
+fiqa_sa,train,column,sentence,34,"EU drops Shell, BP, Statoil from ethanol benchmark investigation"
+fiqa_sa,train,column,sentence,35,"EU drops Shell, BP, Statoil from ethanol benchmark investigation"
+fiqa_sa,train,column,sentence,43,ITV share price jumps on report of Comcast's NBCUniversal bidding to takeover ...
+fiqa_sa,train,column,sentence,44,ITV share price jumps on report of Comcast's NBCUniversal bidding to takeover ...
+fiqa_sa,train,column,sentence,49,"Standard Chartered, RBS Escape Capital Raising in Stress Test"
+fiqa_sa,train,column,sentence,50,"Standard Chartered, RBS Escape Capital Raising in Stress Test"
+fiqa_sa,train,column,sentence,60,Morrisons and Debenhams surprise City with Christmas bounce back
+fiqa_sa,train,column,sentence,61,Morrisons and Debenhams surprise City with Christmas bounce back
+fiqa_sa,train,column,sentence,66,Philippines' San Miguel says to partner with Kirin if it bids for SABMiller's ...
+fiqa_sa,train,column,sentence,67,Philippines' San Miguel says to partner with Kirin if it bids for SABMiller's ...
+fiqa_sa,train,column,sentence,70,Shire share price under pressure after $32bn Baxalta deal
+fiqa_sa,train,column,sentence,71,Shire share price under pressure after $32bn Baxalta deal
+fiqa_sa,train,column,sentence,78,"Broker tips: RBS, Croda, Sage"
+fiqa_sa,train,column,sentence,79,"Broker tips: RBS, Croda, Sage"
+fiqa_sa,train,column,sentence,80,Shell share price: Standard Life announce position against BG acquisition
+fiqa_sa,train,column,sentence,81,Shell share price: Standard Life announce position against BG acquisition
+fiqa_sa,train,column,sentence,93,"Should You Buy Jumbo Yielders British American Tobacco plc, Centrica PLC & John Wood Group PLC?"
+fiqa_sa,train,column,sentence,94,"Should You Buy Jumbo Yielders British American Tobacco plc, Centrica PLC & John Wood Group PLC?"
+fiqa_sa,train,column,sentence,108,Barclays appoints JPMorgan's Paul Compton as new COO
+fiqa_sa,train,column,sentence,109,Barclays appoints JPMorgan's Paul Compton as new COO
+fiqa_sa,train,column,sentence,113,News FeedFTSE 100 movers: LSE surges as ICE says mulling offer; Ashtead and Barclays tank
+fiqa_sa,train,column,sentence,114,News FeedFTSE 100 movers: LSE surges as ICE says mulling offer; Ashtead and Barclays tank
+fiqa_sa,train,column,sentence,115,Balfour Beatty plc Set To Reinstate Dividend (And Rival National Grid plc And Centrica PLC Once More?)
+fiqa_sa,train,column,sentence,116,Balfour Beatty plc Set To Reinstate Dividend (And Rival National Grid plc And Centrica PLC Once More?)
+fiqa_sa,train,column,sentence,117,Balfour Beatty plc Set To Reinstate Dividend (And Rival National Grid plc And Centrica PLC Once More?)
+fiqa_sa,train,column,sentence,141,"Saudi Aramco, Shell plan to break up Motiva, divide up assets"
+fiqa_sa,train,column,sentence,142,"Saudi Aramco, Shell plan to break up Motiva, divide up assets"
+fiqa_sa,train,column,sentence,147,Entertainment One dispels ITV takeover rumours
+fiqa_sa,train,column,sentence,148,Entertainment One dispels ITV takeover rumours
+fiqa_sa,train,column,sentence,149,GE to Sell Majority Stake in Bank BPH's Core Bank to Alior Bank
+fiqa_sa,train,column,sentence,150,GE to Sell Majority Stake in Bank BPH's Core Bank to Alior Bank
+fiqa_sa,train,column,sentence,151,Tata Steel working with StanChart for UK unit sale - source
+fiqa_sa,train,column,sentence,152,Tata Steel working with StanChart for UK unit sale - source
+fiqa_sa,train,column,sentence,154,Tesco sells half of stake in ecommerce site Lazada to Alibaba for Â£90m
+fiqa_sa,train,column,sentence,155,Tesco sells half of stake in ecommerce site Lazada to Alibaba for Â£90m
+fiqa_sa,train,column,sentence,173,Tesco closes in on new chairman with Dixons Carphone's John Allan in the frame
+fiqa_sa,train,column,sentence,174,Tesco closes in on new chairman with Dixons Carphone's John Allan in the frame
+fiqa_sa,train,column,sentence,189,Sainsbury CFO Rogers to Replace Home Retail CEO Walden
+fiqa_sa,train,column,sentence,190,Sainsbury CFO Rogers to Replace Home Retail CEO Walden
+fiqa_sa,train,column,sentence,195,"Goldman Sachs, Barclays, HSBC downplay Brexit threat"
+fiqa_sa,train,column,sentence,196,"Goldman Sachs, Barclays, HSBC downplay Brexit threat"
+fiqa_sa,train,column,sentence,197,"Goldman Sachs, Barclays, HSBC downplay Brexit threat"
+fiqa_sa,train,column,sentence,198,Asahi could be about to snap up more of SABMiller's beers ahead of AB InBev sale
+fiqa_sa,train,column,sentence,199,Asahi could be about to snap up more of SABMiller's beers ahead of AB InBev sale
+fiqa_sa,train,column,sentence,200,LSE-Deutsche BÃ¶rse dealmakers wrong to ignore Brexit risk
+fiqa_sa,train,column,sentence,201,LSE-Deutsche BÃ¶rse dealmakers wrong to ignore Brexit risk
+fiqa_sa,train,column,sentence,205,"Are ARM Holdings plc, Domino's Pizza Group plc and ASOS plc 3 must-have growth stocks?"
+fiqa_sa,train,column,sentence,206,"Are ARM Holdings plc, Domino's Pizza Group plc and ASOS plc 3 must-have growth stocks?"
+fiqa_sa,train,column,sentence,208,"Tesco set to sell Kipa, Giraffe businesses - Sky News"
+fiqa_sa,train,column,sentence,209,"Tesco set to sell Kipa, Giraffe businesses - Sky News"
+fiqa_sa,train,column,sentence,211,The Coca-Cola Company and Coca-Cola FEMSA to Acquire AdeS Soy-Based Beverage Business From Unilever
+fiqa_sa,train,column,sentence,212,The Coca-Cola Company and Coca-Cola FEMSA to Acquire AdeS Soy-Based Beverage Business From Unilever
+fiqa_sa,train,column,sentence,217,"Should you buy Associated British Foods plc, Great Portland Estates plc and Dunelm Group plc following today's news?"
+fiqa_sa,train,column,sentence,218,"Should you buy Associated British Foods plc, Great Portland Estates plc and Dunelm Group plc following today's news?"
+fiqa_sa,train,column,sentence,233,"Buffett's Berkshire builds Deere stake, dumps Exxon"
+fiqa_sa,train,column,sentence,234,"Buffett's Berkshire builds Deere stake, dumps Exxon"
+fiqa_sa,train,column,sentence,244,"UPDATE: EasyJet Passenger Numbers, Aer Lingus Traffic Up In February"
+fiqa_sa,train,column,sentence,245,"UPDATE: EasyJet Passenger Numbers, Aer Lingus Traffic Up In February"
+fiqa_sa,train,column,sentence,252,"London open: Taylor Wimpey and Ashtead drive markets higher, Barclays falls"
+fiqa_sa,train,column,sentence,253,"London open: Taylor Wimpey and Ashtead drive markets higher, Barclays falls"
+fiqa_sa,train,column,sentence,254,"London open: Taylor Wimpey and Ashtead drive markets higher, Barclays falls"
+fiqa_sa,train,column,sentence,257,Citigroup to Sell OneMain to Springleaf for $4.25 Billion
+fiqa_sa,train,column,sentence,258,Citigroup to Sell OneMain to Springleaf for $4.25 Billion
+fiqa_sa,train,column,sentence,262,"Kraft, Cadbury's and Britvic in Total Recall: how pulling a product affects profit"
+fiqa_sa,train,column,sentence,263,"Kraft, Cadbury's and Britvic in Total Recall: how pulling a product affects profit"
+fiqa_sa,train,column,sentence,265,AstraZeneca Teams With Daiichi Sankyo To Sell Movantik In US
+fiqa_sa,train,column,sentence,266,AstraZeneca Teams With Daiichi Sankyo To Sell Movantik In US
+fiqa_sa,train,column,sentence,268,Credit Suisse poaches Prudential's Thiam for Asian push
+fiqa_sa,train,column,sentence,269,Credit Suisse poaches Prudential's Thiam for Asian push
+fiqa_sa,train,column,sentence,273,AstraZeneca And Daiichi Sankyo To Jointly Commercialise MOVANTIK In The US
+fiqa_sa,train,column,sentence,274,AstraZeneca And Daiichi Sankyo To Jointly Commercialise MOVANTIK In The US
+fiqa_sa,train,column,sentence,281,"FDA panel backs safety updates for AstraZeneca, Takeda drugs"
+fiqa_sa,train,column,sentence,282,"FDA panel backs safety updates for AstraZeneca, Takeda drugs"
+fiqa_sa,train,column,sentence,285,Germanwings disaster will not affect image of budget air travel - easyJet
+fiqa_sa,train,column,sentence,286,Germanwings disaster will not affect image of budget air travel - easyJet
+fiqa_sa,train,column,sentence,288,Tesco sells Blinkbox and broadband service to TalkTalk
+fiqa_sa,train,column,sentence,289,Tesco sells Blinkbox and broadband service to TalkTalk
+fiqa_sa,train,column,sentence,295,Shell challenges Exxon dominance with 47 billion-pound bid for BG
+fiqa_sa,train,column,sentence,296,Shell challenges Exxon dominance with 47 billion-pound bid for BG
+fiqa_sa,train,column,sentence,299,Diageo receives reports from United Spirits on financial irregularities involving ...
+fiqa_sa,train,column,sentence,300,Diageo receives reports from United Spirits on financial irregularities involving ...
+fiqa_sa,train,column,sentence,322,"UPDATE 3-BP settles oil spill-related claims with Halliburton, Transocean"
+fiqa_sa,train,column,sentence,323,"UPDATE 3-BP settles oil spill-related claims with Halliburton, Transocean"
+fiqa_sa,train,column,sentence,326,"Philip Morris, BAT Sue Over Law Taking Branding Off Packs"
+fiqa_sa,train,column,sentence,327,"Philip Morris, BAT Sue Over Law Taking Branding Off Packs"
+fiqa_sa,train,column,sentence,329,"PRESS: Serco Set To Appoint Roy Gardner, Ex-Centrica, As Chairman - FT"
+fiqa_sa,train,column,sentence,330,"PRESS: Serco Set To Appoint Roy Gardner, Ex-Centrica, As Chairman - FT"
+fiqa_sa,train,column,sentence,335,"Britain's FTSE bounces back, Mondi and Barratt lead"
+fiqa_sa,train,column,sentence,336,"Britain's FTSE bounces back, Mondi and Barratt lead"
+fiqa_sa,train,column,sentence,341,"Centrica extends gas deals with Gazprom, Statoil"
+fiqa_sa,train,column,sentence,342,"Centrica extends gas deals with Gazprom, Statoil"
+fiqa_sa,train,column,sentence,345,Teva: FDA Approves Generic Version of AstraZeneca Heartburn Drug
+fiqa_sa,train,column,sentence,346,Teva: FDA Approves Generic Version of AstraZeneca Heartburn Drug
+fiqa_sa,valid,column,_id,10,521
+fiqa_sa,valid,column,_id,11,521
+fiqa_sa,valid,column,_id,19,548
+fiqa_sa,valid,column,_id,20,548
+fiqa_sa,valid,column,_id,21,55
+fiqa_sa,valid,column,_id,22,55
+fiqa_sa,valid,column,_id,27,556
+fiqa_sa,valid,column,_id,28,556
+fiqa_sa,valid,column,_id,43,622
+fiqa_sa,valid,column,_id,44,622
+fiqa_sa,valid,column,_id,45,622
+fiqa_sa,valid,column,sentence,10,"FTSE rallies off three-month low, boosted by StanChart, Sainsbury"
+fiqa_sa,valid,column,sentence,11,"FTSE rallies off three-month low, boosted by StanChart, Sainsbury"
+fiqa_sa,valid,column,sentence,19,UPDATE: Barclays Expects Gain After Settling With Lehman Bros Trustee
+fiqa_sa,valid,column,sentence,20,UPDATE: Barclays Expects Gain After Settling With Lehman Bros Trustee
+fiqa_sa,valid,column,sentence,21,Tesco Abandons Video-Streaming Ambitions in Blinkbox Sale
+fiqa_sa,valid,column,sentence,22,Tesco Abandons Video-Streaming Ambitions in Blinkbox Sale
+fiqa_sa,valid,column,sentence,27,CompaniesActelion shares hit record on Shire takeover talk
+fiqa_sa,valid,column,sentence,28,CompaniesActelion shares hit record on Shire takeover talk
+fiqa_sa,valid,column,sentence,43,"Ingenious, HSBC, UBS and Coutts sued by 'tax avoidance' clients"
+fiqa_sa,valid,column,sentence,44,"Ingenious, HSBC, UBS and Coutts sued by 'tax avoidance' clients"
+fiqa_sa,valid,column,sentence,45,"Ingenious, HSBC, UBS and Coutts sued by 'tax avoidance' clients"
+fiqa_sa,test,column,_id,8,671
+fiqa_sa,test,column,_id,9,671
+fiqa_sa,test,column,_id,17,69
+fiqa_sa,test,column,_id,18,69
+fiqa_sa,test,column,_id,47,835
+fiqa_sa,test,column,_id,48,835
+fiqa_sa,test,column,_id,50,840
+fiqa_sa,test,column,_id,51,840
+fiqa_sa,test,column,sentence,8,Diageo Sells Ryder Cup Venue Gleneagles Hotel to Ennismore Group
+fiqa_sa,test,column,sentence,9,Diageo Sells Ryder Cup Venue Gleneagles Hotel to Ennismore Group
+fiqa_sa,test,column,sentence,17,Tesco share price dips as Blinkbox Books closes ending supermarket's digital ...
+fiqa_sa,test,column,sentence,18,Tesco share price dips as Blinkbox Books closes ending supermarket's digital ...
+fiqa_sa,test,column,sentence,47,ARM Holdings plc Partners With International Business Machines Corp. To Drive ...
+fiqa_sa,test,column,sentence,48,ARM Holdings plc Partners With International Business Machines Corp. To Drive ...
+fiqa_sa,test,column,sentence,50,"After Barclays and Bank of America, Citigroup has blockchain in sight"
+fiqa_sa,test,column,sentence,51,"After Barclays and Bank of America, Citigroup has blockchain in sight"
+financial_mmlu_ko,test,column,conversation_id,0,financial_mmlu_0
+financial_mmlu_ko,test,column,conversation_id,1,financial_mmlu_1
+financial_mmlu_ko,test,column,conversation_id,2,financial_mmlu_2
+financial_mmlu_ko,test,column,conversation_id,3,financial_mmlu_3
+financial_mmlu_ko,test,column,conversation_id,4,financial_mmlu_4
+financial_mmlu_ko,test,column,conversation_id,5,financial_mmlu_5
+financial_mmlu_ko,test,column,conversation_id,6,financial_mmlu_6
+financial_mmlu_ko,test,column,conversation_id,7,financial_mmlu_7
+financial_mmlu_ko,test,column,conversation_id,8,financial_mmlu_8
+financial_mmlu_ko,test,column,conversation_id,9,financial_mmlu_9
+financial_mmlu_ko,test,column,conversation_id,10,financial_mmlu_10
+financial_mmlu_ko,test,column,conversation_id,11,financial_mmlu_11
+financial_mmlu_ko,test,column,conversation_id,12,financial_mmlu_12
+financial_mmlu_ko,test,column,conversation_id,13,financial_mmlu_13
+financial_mmlu_ko,test,column,conversation_id,14,financial_mmlu_14
+financial_mmlu_ko,test,column,conversation_id,15,financial_mmlu_15
+financial_mmlu_ko,test,column,conversation_id,16,financial_mmlu_16
+financial_mmlu_ko,test,column,conversation_id,17,financial_mmlu_17
+financial_mmlu_ko,test,column,conversation_id,18,financial_mmlu_18
+financial_mmlu_ko,test,column,conversation_id,19,financial_mmlu_19
+financial_mmlu_ko,test,column,conversation_id,20,financial_mmlu_20
+financial_mmlu_ko,test,column,conversation_id,21,financial_mmlu_21
+financial_mmlu_ko,test,column,conversation_id,22,financial_mmlu_22
+financial_mmlu_ko,test,column,conversation_id,23,financial_mmlu_23
+financial_mmlu_ko,test,column,conversation_id,24,financial_mmlu_24
+financial_mmlu_ko,test,column,conversation_id,25,financial_mmlu_25
+financial_mmlu_ko,test,column,conversation_id,26,financial_mmlu_26
+financial_mmlu_ko,test,column,conversation_id,27,financial_mmlu_27
+financial_mmlu_ko,test,column,conversation_id,28,financial_mmlu_28
+financial_mmlu_ko,test,column,conversation_id,29,financial_mmlu_29
+financial_mmlu_ko,test,column,conversation_id,30,financial_mmlu_30
+financial_mmlu_ko,test,column,conversation_id,31,financial_mmlu_31
+financial_mmlu_ko,test,column,conversation_id,32,financial_mmlu_32
+financial_mmlu_ko,test,column,conversation_id,33,financial_mmlu_33
+financial_mmlu_ko,test,column,conversation_id,34,financial_mmlu_34
+financial_mmlu_ko,test,column,conversation_id,35,financial_mmlu_35
+financial_mmlu_ko,test,column,conversation_id,36,financial_mmlu_36
+financial_mmlu_ko,test,column,conversation_id,37,financial_mmlu_37
+financial_mmlu_ko,test,column,conversation_id,38,financial_mmlu_38
+financial_mmlu_ko,test,column,conversation_id,39,financial_mmlu_39
+financial_mmlu_ko,test,column,conversation_id,40,financial_mmlu_40
+financial_mmlu_ko,test,column,conversation_id,41,financial_mmlu_41
+financial_mmlu_ko,test,column,conversation_id,42,financial_mmlu_42
+financial_mmlu_ko,test,column,conversation_id,43,financial_mmlu_43
+financial_mmlu_ko,test,column,conversation_id,44,financial_mmlu_44
+financial_mmlu_ko,test,column,conversation_id,45,financial_mmlu_45
+financial_mmlu_ko,test,column,conversation_id,46,financial_mmlu_46
+financial_mmlu_ko,test,column,conversation_id,47,financial_mmlu_47
+financial_mmlu_ko,test,column,conversation_id,48,financial_mmlu_48
+financial_mmlu_ko,test,column,conversation_id,49,financial_mmlu_49
+financial_mmlu_ko,test,column,conversation_id,50,financial_mmlu_50
+financial_mmlu_ko,test,column,conversation_id,51,financial_mmlu_51
+financial_mmlu_ko,test,column,conversation_id,52,financial_mmlu_52
+financial_mmlu_ko,test,column,conversation_id,53,financial_mmlu_53
+financial_mmlu_ko,test,column,conversation_id,54,financial_mmlu_54
+financial_mmlu_ko,test,column,conversation_id,55,financial_mmlu_55
+financial_mmlu_ko,test,column,conversation_id,56,financial_mmlu_56
+financial_mmlu_ko,test,column,conversation_id,57,financial_mmlu_57
+financial_mmlu_ko,test,column,conversation_id,58,financial_mmlu_58
+financial_mmlu_ko,test,column,conversation_id,59,financial_mmlu_59
+financial_mmlu_ko,test,column,conversation_id,60,financial_mmlu_60
+financial_mmlu_ko,test,column,conversation_id,61,financial_mmlu_61
+financial_mmlu_ko,test,column,conversation_id,62,financial_mmlu_62
+financial_mmlu_ko,test,column,conversation_id,63,financial_mmlu_63
+financial_mmlu_ko,test,column,conversation_id,64,financial_mmlu_64
+financial_mmlu_ko,test,column,conversation_id,65,financial_mmlu_65
+financial_mmlu_ko,test,column,conversation_id,66,financial_mmlu_66
+financial_mmlu_ko,test,column,conversation_id,67,financial_mmlu_67
+financial_mmlu_ko,test,column,conversation_id,68,financial_mmlu_68
+financial_mmlu_ko,test,column,conversation_id,69,financial_mmlu_69
+financial_mmlu_ko,test,column,conversation_id,70,financial_mmlu_70
+financial_mmlu_ko,test,column,conversation_id,71,financial_mmlu_71
+financial_mmlu_ko,test,column,conversation_id,72,financial_mmlu_72
+financial_mmlu_ko,test,column,conversation_id,73,financial_mmlu_73
+financial_mmlu_ko,test,column,conversation_id,74,financial_mmlu_74
+financial_mmlu_ko,test,column,conversation_id,75,financial_mmlu_75
+financial_mmlu_ko,test,column,conversation_id,76,financial_mmlu_76
+financial_mmlu_ko,test,column,conversation_id,77,financial_mmlu_77
+financial_mmlu_ko,test,column,conversation_id,78,financial_mmlu_78
+financial_mmlu_ko,test,column,conversation_id,79,financial_mmlu_79
+financial_mmlu_ko,test,column,conversation_id,80,financial_mmlu_80
+financial_mmlu_ko,test,column,conversation_id,81,financial_mmlu_81
+financial_mmlu_ko,test,column,conversation_id,82,financial_mmlu_82
+financial_mmlu_ko,test,column,conversation_id,83,financial_mmlu_83
+financial_mmlu_ko,test,column,conversation_id,84,financial_mmlu_84
+financial_mmlu_ko,test,column,conversation_id,85,financial_mmlu_85
+financial_mmlu_ko,test,column,conversation_id,86,financial_mmlu_86
+financial_mmlu_ko,test,column,conversation_id,87,financial_mmlu_87
+financial_mmlu_ko,test,column,conversation_id,88,financial_mmlu_88
+financial_mmlu_ko,test,column,conversation_id,89,financial_mmlu_89
+financial_mmlu_ko,test,column,conversation_id,90,financial_mmlu_90
+financial_mmlu_ko,test,column,conversation_id,91,financial_mmlu_91
+financial_mmlu_ko,test,column,conversation_id,92,financial_mmlu_92
+financial_mmlu_ko,test,column,conversation_id,93,financial_mmlu_93
+financial_mmlu_ko,test,column,conversation_id,94,financial_mmlu_94
+financial_mmlu_ko,test,column,conversation_id,95,financial_mmlu_95
+financial_mmlu_ko,test,column,conversation_id,96,financial_mmlu_96
+financial_mmlu_ko,test,column,conversation_id,97,financial_mmlu_97
+financial_mmlu_ko,test,column,conversation_id,98,financial_mmlu_98
+financial_mmlu_ko,test,column,conversation_id,99,financial_mmlu_99
+financial_mmlu_ko,test,column,conversation_id,100,financial_mmlu_100
+financial_mmlu_ko,test,column,conversation_id,101,financial_mmlu_101
+financial_mmlu_ko,test,column,conversation_id,102,financial_mmlu_102
+financial_mmlu_ko,test,column,conversation_id,103,financial_mmlu_103
+financial_mmlu_ko,test,column,conversation_id,104,financial_mmlu_0
+financial_mmlu_ko,test,column,conversation_id,105,financial_mmlu_1
+financial_mmlu_ko,test,column,conversation_id,106,financial_mmlu_2
+financial_mmlu_ko,test,column,conversation_id,107,financial_mmlu_3
+financial_mmlu_ko,test,column,conversation_id,108,financial_mmlu_4
+financial_mmlu_ko,test,column,conversation_id,109,financial_mmlu_5
+financial_mmlu_ko,test,column,conversation_id,110,financial_mmlu_6
+financial_mmlu_ko,test,column,conversation_id,111,financial_mmlu_7
+financial_mmlu_ko,test,column,conversation_id,112,financial_mmlu_8
+financial_mmlu_ko,test,column,conversation_id,113,financial_mmlu_9
+financial_mmlu_ko,test,column,conversation_id,114,financial_mmlu_10
+financial_mmlu_ko,test,column,conversation_id,115,financial_mmlu_11
+financial_mmlu_ko,test,column,conversation_id,116,financial_mmlu_12
+financial_mmlu_ko,test,column,conversation_id,117,financial_mmlu_13
+financial_mmlu_ko,test,column,conversation_id,118,financial_mmlu_14
+financial_mmlu_ko,test,column,conversation_id,119,financial_mmlu_15
+financial_mmlu_ko,test,column,conversation_id,120,financial_mmlu_16
+financial_mmlu_ko,test,column,conversation_id,121,financial_mmlu_17
+financial_mmlu_ko,test,column,conversation_id,122,financial_mmlu_18
+financial_mmlu_ko,test,column,conversation_id,123,financial_mmlu_19
+financial_mmlu_ko,test,column,conversation_id,124,financial_mmlu_20
+financial_mmlu_ko,test,column,conversation_id,125,financial_mmlu_21
+financial_mmlu_ko,test,column,conversation_id,126,financial_mmlu_22
+financial_mmlu_ko,test,column,conversation_id,127,financial_mmlu_23
+financial_mmlu_ko,test,column,conversation_id,128,financial_mmlu_24
+financial_mmlu_ko,test,column,conversation_id,129,financial_mmlu_25
+financial_mmlu_ko,test,column,conversation_id,130,financial_mmlu_26
+financial_mmlu_ko,test,column,conversation_id,131,financial_mmlu_27
+financial_mmlu_ko,test,column,conversation_id,132,financial_mmlu_28
+financial_mmlu_ko,test,column,conversation_id,133,financial_mmlu_29
+financial_mmlu_ko,test,column,conversation_id,134,financial_mmlu_30
+financial_mmlu_ko,test,column,conversation_id,135,financial_mmlu_31
+financial_mmlu_ko,test,column,conversation_id,136,financial_mmlu_32
+financial_mmlu_ko,test,column,conversation_id,137,financial_mmlu_33
+financial_mmlu_ko,test,column,conversation_id,138,financial_mmlu_34
+financial_mmlu_ko,test,column,conversation_id,139,financial_mmlu_35
+financial_mmlu_ko,test,column,conversation_id,140,financial_mmlu_36
+financial_mmlu_ko,test,column,conversation_id,141,financial_mmlu_37
+financial_mmlu_ko,test,column,conversation_id,142,financial_mmlu_38
+financial_mmlu_ko,test,column,conversation_id,143,financial_mmlu_39
+financial_mmlu_ko,test,column,conversation_id,144,financial_mmlu_40
+financial_mmlu_ko,test,column,conversation_id,145,financial_mmlu_41
+financial_mmlu_ko,test,column,conversation_id,146,financial_mmlu_42
+financial_mmlu_ko,test,column,conversation_id,147,financial_mmlu_43
+financial_mmlu_ko,test,column,conversation_id,148,financial_mmlu_44
+financial_mmlu_ko,test,column,conversation_id,149,financial_mmlu_45
+financial_mmlu_ko,test,column,conversation_id,150,financial_mmlu_46
+financial_mmlu_ko,test,column,conversation_id,151,financial_mmlu_47
+financial_mmlu_ko,test,column,conversation_id,152,financial_mmlu_48
+financial_mmlu_ko,test,column,conversation_id,153,financial_mmlu_49
+financial_mmlu_ko,test,column,conversation_id,154,financial_mmlu_50
+financial_mmlu_ko,test,column,conversation_id,155,financial_mmlu_51
+financial_mmlu_ko,test,column,conversation_id,156,financial_mmlu_52
+financial_mmlu_ko,test,column,conversation_id,157,financial_mmlu_53
+financial_mmlu_ko,test,column,conversation_id,158,financial_mmlu_54
+financial_mmlu_ko,test,column,conversation_id,159,financial_mmlu_55
+financial_mmlu_ko,test,column,conversation_id,160,financial_mmlu_56
+financial_mmlu_ko,test,column,conversation_id,161,financial_mmlu_57
+financial_mmlu_ko,test,column,conversation_id,162,financial_mmlu_58
+financial_mmlu_ko,test,column,conversation_id,163,financial_mmlu_59
+financial_mmlu_ko,test,column,conversation_id,164,financial_mmlu_60
+financial_mmlu_ko,test,column,conversation_id,165,financial_mmlu_61
+financial_mmlu_ko,test,column,conversation_id,166,financial_mmlu_62
+financial_mmlu_ko,test,column,conversation_id,167,financial_mmlu_63
+financial_mmlu_ko,test,column,conversation_id,168,financial_mmlu_64
+financial_mmlu_ko,test,column,conversation_id,169,financial_mmlu_65
+financial_mmlu_ko,test,column,conversation_id,170,financial_mmlu_66
+financial_mmlu_ko,test,column,conversation_id,171,financial_mmlu_67
+financial_mmlu_ko,test,column,conversation_id,172,financial_mmlu_68
+financial_mmlu_ko,test,column,conversation_id,173,financial_mmlu_69
+financial_mmlu_ko,test,column,conversation_id,174,financial_mmlu_70
+financial_mmlu_ko,test,column,conversation_id,175,financial_mmlu_71
+financial_mmlu_ko,test,column,conversation_id,176,financial_mmlu_72
+financial_mmlu_ko,test,column,conversation_id,177,financial_mmlu_73
+financial_mmlu_ko,test,column,conversation_id,178,financial_mmlu_74
+financial_mmlu_ko,test,column,conversation_id,179,financial_mmlu_75
+financial_mmlu_ko,test,column,conversation_id,180,financial_mmlu_76
+financial_mmlu_ko,test,column,conversation_id,181,financial_mmlu_77
+financial_mmlu_ko,test,column,conversation_id,182,financial_mmlu_78
+financial_mmlu_ko,test,column,conversation_id,183,financial_mmlu_79
+financial_mmlu_ko,test,column,conversation_id,184,financial_mmlu_80
+financial_mmlu_ko,test,column,conversation_id,185,financial_mmlu_81
+financial_mmlu_ko,test,column,conversation_id,186,financial_mmlu_82
+financial_mmlu_ko,test,column,conversation_id,187,financial_mmlu_83
+financial_mmlu_ko,test,column,conversation_id,188,financial_mmlu_84
+financial_mmlu_ko,test,column,conversation_id,189,financial_mmlu_85
+financial_mmlu_ko,test,column,conversation_id,190,financial_mmlu_86
+financial_mmlu_ko,test,column,conversation_id,191,financial_mmlu_87
+financial_mmlu_ko,test,column,conversation_id,192,financial_mmlu_88
+financial_mmlu_ko,test,column,conversation_id,193,financial_mmlu_89
+financial_mmlu_ko,test,column,conversation_id,194,financial_mmlu_90
+financial_mmlu_ko,test,column,conversation_id,195,financial_mmlu_91
+financial_mmlu_ko,test,column,conversation_id,196,financial_mmlu_92
+financial_mmlu_ko,test,column,conversation_id,197,financial_mmlu_93
+financial_mmlu_ko,test,column,conversation_id,198,financial_mmlu_94
+financial_mmlu_ko,test,column,conversation_id,199,financial_mmlu_95
+financial_mmlu_ko,test,column,conversation_id,200,financial_mmlu_96
+financial_mmlu_ko,test,column,conversation_id,201,financial_mmlu_97
+financial_mmlu_ko,test,column,conversation_id,202,financial_mmlu_98
+financial_mmlu_ko,test,column,conversation_id,203,financial_mmlu_99
+financial_mmlu_ko,test,column,conversation_id,204,financial_mmlu_100
+financial_mmlu_ko,test,column,conversation_id,205,financial_mmlu_101
+financial_mmlu_ko,test,column,conversation_id,206,financial_mmlu_102
+financial_mmlu_ko,test,column,conversation_id,207,financial_mmlu_103

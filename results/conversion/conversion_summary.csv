@@ -1,0 +1,5 @@
+﻿dataset,raw_rows,processed_rows,unique_ids,output_file
+fpb,4846,4846,True,data/processed/fpb/fpb_processed.jsonl
+fiqa_sa,1173,1173,True,data/processed/fiqa_sa/fiqa_sa_processed.jsonl
+finqa,8281,8281,True,data/processed/finqa/finqa_processed.jsonl
+financial_mmlu_ko,455,455,True,data/processed/financial_mmlu_ko/financial_mmlu_ko_processed.jsonl

@@ -1,0 +1,8 @@
+﻿section,metric,deepseek_v4_pro,solar_pro3,difference_deepseek_minus_solar_pp,winner
+overall,answer_accuracy,0.71375,0.62625,8.75,deepseek_v4_pro
+overall,strict_accuracy,0.65875,0.58625,7.25,deepseek_v4_pro
+overall,format_compliance,0.9175,0.87625,4.13,deepseek_v4_pro
+dataset_answer_accuracy,fpb,0.655,0.725,-7.0,solar_pro3
+dataset_answer_accuracy,fiqa_sa,0.705,0.83,-12.5,solar_pro3
+dataset_answer_accuracy,finqa,0.61,0.2,41.0,deepseek_v4_pro
+dataset_answer_accuracy,financial_mmlu_ko,0.885,0.75,13.5,deepseek_v4_pro

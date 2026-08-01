@@ -1,0 +1,21 @@
+{
+  "experiment_name": null,
+  "scope": null,
+  "variant": null,
+  "prompt_name": null,
+  "status": "prepared_not_run",
+  "api_provider": null,
+  "model": null,
+  "temperature": 0,
+  "seed": 42,
+  "record_count": 0,
+  "successful_calls": 0,
+  "failed_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "estimated_cost_usd": 0.0,
+  "started_at_utc": null,
+  "finished_at_utc": null,
+  "notes": null
+}

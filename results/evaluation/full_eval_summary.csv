@@ -1,0 +1,5 @@
+﻿dataset,rows,split_counts,output_file,sha256
+fpb,4846,full=4846,data\evaluation\full\fpb_full_eval.jsonl,3a168063175df8b53111b3715fb990f047fd8f53785da816e9848c89a91127fb
+fiqa_sa,1173,"test=234, train=822, valid=117",data\evaluation\full\fiqa_sa_full_eval.jsonl,17abf3cf1baaad00e91f8bfa20e2a3c8eb384c3def826b92ee4e80564e59d71e
+finqa,8281,"test=1147, train=6251, valid=883",data\evaluation\full\finqa_full_eval.jsonl,1b098fca74fcf54339cbf8796684ffdf2eac5b48e92c71b229a0d858a9bc9168
+financial_mmlu_ko,455,test=455,data\evaluation\full\financial_mmlu_ko_full_eval.jsonl,d88b59cefc6cbc12afcceeeded46c68cc5a5d85a20c9233df4810e694d838db4

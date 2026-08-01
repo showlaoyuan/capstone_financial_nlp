@@ -1,0 +1,121 @@
+{
+  "experiment": "solar_pro3_pilot_prompt_ab",
+  "scoring_rules": {
+    "answer_accuracy": "Parsed answer matches the reference. For FinQA, the last numeric value is evaluated with displayed-precision tolerance and percent/decimal equivalence.",
+    "strict_accuracy": "The answer is correct and the response obeys the required answer-only format.",
+    "format_compliance": "The complete response contains only the requested label, choice number, or numeric answer."
+  },
+  "prompt_a": {
+    "records": 800,
+    "answer_correct": 501,
+    "answer_accuracy": 0.6262,
+    "strict_correct": 469,
+    "strict_accuracy": 0.5863,
+    "format_valid": 701,
+    "format_compliance": 0.8762,
+    "by_dataset": {
+      "fpb": {
+        "records": 200,
+        "answer_correct": 145,
+        "answer_accuracy": 0.725,
+        "strict_correct": 145,
+        "strict_accuracy": 0.725,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      },
+      "fiqa_sa": {
+        "records": 200,
+        "answer_correct": 166,
+        "answer_accuracy": 0.83,
+        "strict_correct": 166,
+        "strict_accuracy": 0.83,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      },
+      "finqa": {
+        "records": 200,
+        "answer_correct": 40,
+        "answer_accuracy": 0.2,
+        "strict_correct": 8,
+        "strict_accuracy": 0.04,
+        "format_valid": 101,
+        "format_compliance": 0.505
+      },
+      "financial_mmlu_ko": {
+        "records": 200,
+        "answer_correct": 150,
+        "answer_accuracy": 0.75,
+        "strict_correct": 150,
+        "strict_accuracy": 0.75,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      }
+    },
+    "failed_api_calls": 0,
+    "average_latency_ms": 605.1,
+    "median_latency_ms": 406.07,
+    "estimated_cost_usd": 0.05736315
+  },
+  "prompt_b": {
+    "records": 800,
+    "answer_correct": 472,
+    "answer_accuracy": 0.59,
+    "strict_correct": 467,
+    "strict_accuracy": 0.5837,
+    "format_valid": 760,
+    "format_compliance": 0.95,
+    "by_dataset": {
+      "fpb": {
+        "records": 200,
+        "answer_correct": 148,
+        "answer_accuracy": 0.74,
+        "strict_correct": 148,
+        "strict_accuracy": 0.74,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      },
+      "fiqa_sa": {
+        "records": 200,
+        "answer_correct": 163,
+        "answer_accuracy": 0.815,
+        "strict_correct": 163,
+        "strict_accuracy": 0.815,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      },
+      "finqa": {
+        "records": 200,
+        "answer_correct": 13,
+        "answer_accuracy": 0.065,
+        "strict_correct": 8,
+        "strict_accuracy": 0.04,
+        "format_valid": 160,
+        "format_compliance": 0.8
+      },
+      "financial_mmlu_ko": {
+        "records": 200,
+        "answer_correct": 148,
+        "answer_accuracy": 0.74,
+        "strict_correct": 148,
+        "strict_accuracy": 0.74,
+        "format_valid": 200,
+        "format_compliance": 1.0
+      }
+    },
+    "failed_api_calls": 0,
+    "average_latency_ms": 502.93,
+    "median_latency_ms": 407.05,
+    "estimated_cost_usd": 0.05377275
+  },
+  "paired_comparison": {
+    "both_correct": 457,
+    "prompt_a_only_correct": 44,
+    "prompt_b_only_correct": 15,
+    "both_wrong": 284
+  },
+  "pilot_recommendation": {
+    "winner": "A",
+    "reason": "Prompt A has more strict correct answers."
+  },
+  "limitation": "The fixed pilot contains 200 records per dataset. Results are specific to this sample, model version, prompts, and decoding configuration, so they are not a universal model claim."
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_name": "financial_nlp_prompt_ab",
+  "default_scope": "smoke20",
+  "available_scopes": {
+    "smoke20": {
+      "records": 80,
+      "purpose": "API connection and parsing test"
+    },
+    "pilot": {
+      "records": 800,
+      "purpose": "small formal A/B experiment"
+    }
+  },
+  "variants": [
+    "A",
+    "B"
+  ],
+  "recommended_first_run": {
+    "scope": "smoke20",
+    "variant": "A",
+    "records": 80
+  },
+  "generation_settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_output_tokens": 256
+  },
+  "retry_settings": {
+    "max_attempts": 3,
+    "initial_wait_seconds": 2
+  },
+  "privacy_rule": "Do not send reference answers to the model."
+}

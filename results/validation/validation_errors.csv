@@ -1,0 +1,8 @@
+﻿dataset,severity,check,record_id,line_number,field,message,observed_value
+fpb,WARNING,duplicate_text,,,text,Duplicate text retained. 16 rows in 8 groups.,""""""
+fpb,WARNING,label_conflict,,,"text,label",2 duplicate texts have conflicting labels.,"[[""TELECOMWORLDWIRE-7 April 2006-TJ Group Plc sells stake in Morning Digital Design Oy Finnish IT company TJ Group Plc said on Friday 7 April that it had signed an agreement on selling its shares o..."
+fiqa_sa,WARNING,duplicate_text,,,text,Repeated sentences retained because annotations may differ. 119 rows in 57 groups.,""""""
+fiqa_sa,WARNING,duplicate_source_id,,,source_id,Original _id reused: 119 rows in 57 groups. Canonical IDs remain unique.,""""""
+finqa,WARNING,duplicate_question,,,question,311 rows in 148 repeated-question groups.,""""""
+financial_mmlu_ko,WARNING,duplicate_question,,,question,2 rows in 1 repeated-question groups.,""""""
+financial_mmlu_ko,WARNING,duplicate_source_id,,,source_id,conversation_id reused: 208 rows in 104 groups. Canonical IDs remain unique.,""""""

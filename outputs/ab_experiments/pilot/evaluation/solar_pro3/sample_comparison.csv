@@ -1,0 +1,1288 @@
+﻿sample_id,dataset,reference_answer,prompt_a_prediction,prompt_a_answer_correct,prompt_a_format_valid,prompt_b_prediction,prompt_b_answer_correct,prompt_b_format_valid,comparison_category
+fpb-full-000025,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000040,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000063,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000080,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000101,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000126,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000142,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000178,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000235,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000264,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000271,fpb,positive,negative,False,True,negative,False,True,both_wrong
+fpb-full-000296,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-000298,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000319,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000347,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000352,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000396,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000400,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-000427,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000442,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000474,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000479,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000488,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000494,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-000527,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000540,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000545,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000546,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000581,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000582,fpb,positive,neutral,False,True,neutral,False,True,both_wrong
+fpb-full-000593,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000634,fpb,neutral,positive,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-000645,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000681,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000687,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000692,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000695,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000696,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-000710,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000712,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000737,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-000796,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000875,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000900,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000980,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000990,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000999,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001040,fpb,neutral,negative,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-001054,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001062,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-001085,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001087,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001109,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001122,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001127,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001131,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001137,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001186,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001224,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001262,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001273,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001290,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001372,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001401,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001435,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001439,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001477,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001493,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001547,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001559,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001575,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001613,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001664,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001667,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-001701,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001794,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001799,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001862,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001869,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001870,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001954,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001989,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001990,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-002017,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002018,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002042,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002046,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002070,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002071,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002081,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002097,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002115,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002135,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-002153,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002171,fpb,positive,negative,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-002175,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002196,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002263,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002268,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002274,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002275,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002316,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002364,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002385,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002393,fpb,neutral,positive,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-002395,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002412,fpb,neutral,negative,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-002413,fpb,neutral,positive,False,True,negative,False,True,both_wrong
+fpb-full-002457,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002464,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002513,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-002581,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002587,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002605,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002657,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002705,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002798,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-002801,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-002807,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-002829,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002851,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002866,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002868,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002887,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002895,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-002935,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002976,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003002,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003043,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003080,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003085,fpb,neutral,positive,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-003086,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003104,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003144,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003168,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003171,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003235,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003299,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003311,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003315,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-003332,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-003363,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003381,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003384,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003432,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003435,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-003451,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003470,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-003487,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003505,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003519,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003523,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003605,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003634,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-003667,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003675,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003702,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003732,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003745,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003746,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003752,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003774,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003787,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003790,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003802,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003817,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003821,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003824,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003837,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003839,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003865,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003943,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003948,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004054,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004160,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-004170,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004175,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004190,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-004197,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004198,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-004211,fpb,neutral,negative,False,True,negative,False,True,both_wrong
+fpb-full-004220,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004288,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-004296,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004322,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004358,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004401,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004437,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004444,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004449,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004460,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-004559,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004565,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004686,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004698,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004723,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004739,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004804,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004835,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004844,fpb,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000014,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000040,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000041,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000047,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000055,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000057,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000064,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000067,fiqa_sa,neutral,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-test-000069,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000076,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000079,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000095,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000097,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000104,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000106,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000112,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000117,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000119,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000125,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000127,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000140,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000142,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000146,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000147,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000153,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000154,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000159,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000169,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000174,fiqa_sa,positive,neutral,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000177,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000187,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000188,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000191,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000195,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-test-000206,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-test-000211,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000214,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000223,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000228,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-test-000233,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000014,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000015,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000016,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000024,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000027,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000030,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000031,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000041,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000048,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000050,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000051,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000054,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000059,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000061,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000063,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000070,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000075,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000089,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000092,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000097,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000099,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000100,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000118,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000123,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000124,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000129,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000140,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000144,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000145,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000155,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000174,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000176,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000181,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000183,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000203,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000205,fiqa_sa,neutral,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000206,fiqa_sa,positive,positive,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000210,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000234,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000239,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000247,fiqa_sa,positive,positive,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000254,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000259,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000262,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000263,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000272,fiqa_sa,negative,negative,True,True,neutral,False,True,prompt_a_only_correct
+fiqa_sa-train-000274,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000276,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000280,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000282,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000284,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-train-000289,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000291,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000303,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000307,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000310,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000312,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000317,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000318,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000325,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000339,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000342,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000343,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000345,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000351,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000356,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000357,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000367,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000373,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000374,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000386,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000399,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000414,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000419,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000428,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000429,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000436,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000452,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000454,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000458,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000461,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000463,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000464,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000467,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000475,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000477,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000478,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000486,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000495,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000500,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000504,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000506,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000513,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000514,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000515,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000519,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000523,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000526,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000530,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000542,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000552,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000553,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000556,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000574,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000578,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000579,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000593,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000598,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000615,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000634,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000637,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-train-000646,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000648,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000664,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000674,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000683,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000685,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000688,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000691,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000693,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000695,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000705,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000707,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000714,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000727,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000735,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000744,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000751,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000752,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000761,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000768,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000769,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000781,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000783,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000787,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000791,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000799,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000804,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000806,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000811,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000003,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000007,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000008,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-valid-000013,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000015,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000018,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000027,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000028,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000029,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000041,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000047,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000051,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000054,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000064,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000066,fiqa_sa,positive,negative,False,True,negative,False,True,both_wrong
+fiqa_sa-valid-000074,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000077,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-valid-000086,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000099,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000107,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+finqa-test-000036,finqa,112.0,0.168,False,True,0.168,False,True,both_wrong
+finqa-test-000042,finqa,0.1216,The difference in percentage cumulative total return for Goldman Sachs Group Inc. and the S&P 500 index for the five-year period ending 12/31/13 is **11.64%**.,False,False,12.00%,False,True,both_wrong
+finqa-test-000096,finqa,364400.0,"142,400",False,True,122400,False,True,both_wrong
+finqa-test-000263,finqa,100.9,$108.9 million,False,False,$108.9 million,False,False,both_wrong
+finqa-test-000273,finqa,0.13785,10.3%,False,True,10.3%,False,True,both_wrong
+finqa-test-000413,finqa,-6.3,-61.1,False,True,-61.1,False,True,both_wrong
+finqa-test-000430,finqa,0.81275,"The outstanding notes under the ATI 7.25% notes were $325.1 million in 2006 and $400.0 million in 2005. The percent change from 2005 to 2006 is:
+
+(325.1 - 400.0) / 400.0 = -74.9 / 400.0 = -0.18725 = -18.725%
+
+So the outstanding notes decreased by 18.725% from 2005 to 2006.",False,False,32.5%,False,True,both_wrong
+finqa-test-000483,finqa,0.9827,198.27,False,True,198.27,False,True,both_wrong
+finqa-test-000490,finqa,0.5804,"The table shows that in 2007, crude oil trunk lines handled 1451 thousand barrels per day, and total pipeline barrels handled was 2500 thousand barrels per day. To find the percentage:
+
+(1451 / 2500) × 100 = 58.04%
+
+So, 58.04% of pipeline barrels handled consisted of crude oil trunk lines in 2007.",False,False,75.2%,False,True,both_wrong
+finqa-test-000535,finqa,51.0,$10.0 million,False,False,$10.0 million,False,False,both_wrong
+finqa-test-000562,finqa,9437.0,"$15,477 + $6,040 = $21,517",False,False,$15477,False,True,both_wrong
+finqa-test-000577,finqa,28597891.58,"$27,694,000",False,True,"$27,633,000",False,True,both_wrong
+finqa-test-000581,finqa,-0.05497,"The user wants the percentage change in securities purchased under agreements to resell between 2014 and 2015.
+
+From the table:
+- As of December 2015: $120,905 million
+- As of December 2014: $127,938 million
+
+Percentage change = (2015 value - 2014 value) / 2014 value * 100
+= (120,905 - 127,938) / 127,938 * 100
+= (-7,033) / 127,938 * 100
+= -5.50% (approximately)
+
+Let me calculate precisely:
+-7,033 / 127,938 = -0.05500
+-0.05500 * 100 = -5.50%
+
+So the answer is -5.50%.
+
+The user wants only the final answer. I should return just the percentage change.
+
+Final answer: -5.50%",True,False,9.5%,False,True,prompt_a_only_correct
+finqa-test-000592,finqa,1.5679,1.62:1,False,False,1.58:1,False,False,both_wrong
+finqa-test-000599,finqa,0.2646,"The ROI from 2008 to 2009 is calculated as (Value at 12/31/2009 - Value at 12/31/2008) / Value at 12/31/2008 × 100%.
+
+For S&P 500:
+- 12/31/2008: $63.00
+- 12/31/2009: $79.67
+
+ROI = (79.67 - 63.00) / 63.00 × 100% = 16.67 / 63.00 × 100% ≈ 26.46%
+
+The ROI of an investment in S&P 500 from 2008 to 2009 is approximately 26.46%.",True,False,16.67%,False,True,prompt_a_only_correct
+finqa-test-000609,finqa,0.25431,"The user wants the percentage change in working capital from 2015 to 2016.
+
+From the table:
+- Working capital at December 31, 2016: 1,279,337 (in thousands)
+- Working capital at December 31, 2015: 1,019,953 (in thousands)
+
+Percentage change = ((2016 - 2015) / 2015) * 100
+= ((1,279,337 - 1,019,953) / 1,019,953) * 100
+= (259,384 / 1,019,953) * 100
+≈ 25.43%
+
+Let me calculate precisely:
+259,384 / 1,019,953 = 0.2543...
+0.2543 * 100 = 25.43%
+
+So the answer is approximately 25.43%.
+
+The user wants only",True,False,12.8%,False,True,prompt_a_only_correct
+finqa-test-000683,finqa,0.80085,"The growth rate for the GFS segment in 2016 is calculated as follows:
+
+- 2016 revenue: $4,250 million
+- 2015 revenue: $2,360 million
+
+Growth rate = (2016 - 2015) / 2015 = (4,250 - 2,360) / 2,360 = 1,890 / 2,360 ≈ 0.8008 or 80.08%
+
+Rounded to two decimal places: 80.08%
+
+Final answer: 80.08%",True,False,1.25,False,True,prompt_a_only_correct
+finqa-test-000721,finqa,0.45082,$121.0 million,False,False,79.0,False,True,both_wrong
+finqa-test-000825,finqa,20704.0,20704,True,True,20704,True,True,both_correct
+finqa-test-000850,finqa,-0.07937,-5.5%,False,True,0.9%,False,True,both_wrong
+finqa-test-000869,finqa,6823.33333,6954.67,False,True,14220,False,True,both_wrong
+finqa-test-000930,finqa,0.70203,"The cash flows from operations increased from $1,131 million in 2015 to $1,925 million in 2016. The percentage increase is calculated as:
+
+((1,925 - 1,131) / 1,131) * 100 = (794 / 1,131) * 100 ≈ 70.2%
+
+So the percentage increase is approximately 70.2%.",True,False,103.9%,False,True,prompt_a_only_correct
+finqa-test-000932,finqa,-0.0561,"United Parcel Service Inc. ended at $121.46, Dow Jones Transportation Average ended at $127.07. The difference is $127.07 - $121.46 = $5.61. As a percentage of UPS's ending value: ($5.61 / $121.46) × 100 ≈ 4.62%.",False,False,12.59%,False,True,both_wrong
+finqa-test-000934,finqa,0.13423,$1.0 million decrease,False,False,$2.0 million decrease,False,False,both_wrong
+finqa-test-001089,finqa,-29.0,433,False,True,433,False,True,both_wrong
+finqa-test-001091,finqa,0.08207,"The industrial packaging operating profit in 2004 was $373 million. The sales in 2004 were $4545 million. Therefore, the profit margin is 373 / 4545 = 0.0821 or 8.21%.
+
+The question asks for the profit margin, which is typically expressed as a percentage. So the answer is 8.21%.
+
+Let me double-check the numbers:
+- 2004 sales: $4545 million
+- 2004 operating profit: $373 million
+- Profit margin = (Operating profit / Sales) * 100 = (373 / 4545) * 100 = 8.21%
+
+This matches the context which states ""operating profits in 2006 were 82% (82%) higher than in 2005 and 7% (7%) higher than in 2004."" The 7% increase from 2004 to 2005 is consistent with the profit margin calculation.
+
+So the final answer is 8.21%.",True,False,"The user wants the industrial packaging profit margin in 2004. The table shows operating profit for 2004: $373 million. Sales for 2004: $4545 million. Profit margin = operating profit / sales = 373 / 4545 = 0.08207... = 8.21% (rounded). The context says ""operating profits in 2006 were 82% (82%) higher than in 2005 and 7% (7%) higher than in 2004."" That's a growth rate, not margin. So we need to compute margin from table.
+
+Compute: 373 / 4545 = 0.08207 = 8.21%. Usually profit margin expressed as percentage. So answer: 8.21% or 8.2%. The user likely expects a percentage. Return only final answer.
+
+Thus: 8.21% (or 8.2%). I'll output ""8.21%"".",True,False,both_correct
+finqa-test-001121,finqa,0.54108,71.4%,False,True,71.4%,False,True,both_wrong
+finqa-test-001139,finqa,3462694.66,"$1,205,260 - $1,133,106 = $72,154",False,False,"$1,205,260 - $1,133,106 = $72,154",False,False,both_wrong
+finqa-train-000021,finqa,0.04598,24.5%,False,True,95%,False,True,both_wrong
+finqa-train-000091,finqa,-1579.0,"$1,0721",False,False,"-1,279,400",False,True,both_wrong
+finqa-train-000094,finqa,4236.12,"The context states that in 2007, aggregate net sales to the segment's five largest customers accounted for approximately 42% of the segment's net sales. However, the table provided does not include data for 2008 regarding the percentage of net sales attributable to the five largest customers. Therefore, based on the information given, the percentage for 2008 cannot be determined from the provided data.
+
+But the question asks for ""how many segmented sales did the 5 largest customers account for in 2008?"" This could be interpreted as asking for the dollar amount or percentage. Since the table shows segment net sales for 2008 as $10,086 million, and we don't have the specific percentage for 2008, we cannot calculate the exact dollar amount.
+
+However, looking at the context again, it says ""in 2007, aggregate net sales to the segment's five largest customers accounted for approximately 42% (42%) of the segment's net sales."" The question is about 2008, but the table doesn't provide this information for 2008. The table only shows segment net sales and operating earnings for 2",False,False,42%,False,True,both_wrong
+finqa-train-000124,finqa,0.07013,"The growth rate of operating income from 2013 to 2014 is calculated as:
+
+(Operating Income 2014 - Operating Income 2013) / Operating Income 2013 × 100%
+= (1648 - 1540) / 1540 × 100%
+= 108 / 1540 × 100%
+≈ 7.01%
+
+So the growth rate is approximately 7.01%.",True,False,1.0%,False,True,prompt_a_only_correct
+finqa-train-000146,finqa,0.588,"The user wants to know the percentage of total long-term assets under supervision that are comprised of fixed income in 2016.
+
+From the table:
+- Fixed income in 2016: $578 billion
+- Total long-term assets under supervision in 2016: $983 billion
+
+Calculation: (578 / 983) * 100 = ?
+
+578 ÷ 983 = 0.5880 (approximately)
+0.5880 × 100 = 58.80%
+
+So the answer is approximately 58.8%.
+
+The user wants only the final answer. I should provide the percentage rounded appropriately. Let me calculate more precisely:
+
+578 / 983 = 0.5880 (let's do exact division)
+578 ÷ 983 = 0.5880 (actually 578/983 = 0.5880 exactly? Let's calculate: 983 * 0.588 = 577.524, so it's about 58.8%)
+
+More precisely:",True,False,70.0%,False,True,prompt_a_only_correct
+finqa-train-000230,finqa,-0.23888,-13.3%,False,True,-13.2%,False,True,both_wrong
+finqa-train-000233,finqa,-124.0,$124 million decrease,False,False,$124 million decrease,False,False,both_wrong
+finqa-train-000240,finqa,0.12176,"The user wants to evaluate financial numerical reasoning. They provided a context and a table. The question: ""non cash items represent what percent of cash from operations in 2018?"" We need to compute the percentage: non-cash items / cash from operations * 100.
+
+From the table: cash from operations 2018 = $2357 million. non-cash items (1) 2018 = 287 million.
+
+Compute: 287 / 2357 = ?
+
+2357 * 0.12 = 282.84. So about 12.2%. Let's calculate precisely: 287 / 2357 = ?
+
+2357 * 0.122 = 287.554. So about 12.2%. Let's compute more precisely: 287 / 2357 = 0.12175... So 12.18% approx.
+
+Thus answer: approximately 12.2%.
+
+Return only final answer. Probably they want a numeric percent. So ""12.2%"" or ""12.18",False,False,10.9%,False,True,both_wrong
+finqa-train-000301,finqa,0.01339,$ 74896 thousand,False,False,$ 74896,False,True,both_wrong
+finqa-train-000409,finqa,0.04229,"The total debt decreased from $1,662.5 million in 2013 to $1,732.8 million in 2014. This is an increase, not a decrease. Let me calculate the percentage change:
+
+Percentage change = (New value - Old value) / Old value * 100
+= (1,732.8 - 1,662.5) / 1,662.5 * 100
+= 70.3 / 1,662.5 * 100
+= 4.23%
+
+So the total debt increased by approximately 4.23% from 2013 to 2014.
+
+Wait, let me double-check the numbers from the table:
+- Total debt 2013: $1,662.5
+- Total debt 2014: $1,732.8
+
+Yes, that's correct. The total debt increased from 2013 to 2014.
+
+Percentage change = (1,732.8 - 1,662.5) / 1",False,False,-1.2%,False,True,both_wrong
+finqa-train-000521,finqa,0.82022,75.6%,False,True,76.0%,False,True,both_wrong
+finqa-train-000538,finqa,yes,Yes,True,True,Yes,True,True,both_correct
+finqa-train-000556,finqa,0.72953,16% (16%),False,False,12% (12%),False,False,both_wrong
+finqa-train-000557,finqa,373000.0,"1,029,000",False,True,1439000,False,True,both_wrong
+finqa-train-000641,finqa,180.04,168.04,False,True,168.04,False,True,both_wrong
+finqa-train-000665,finqa,0.36833,41.2%,False,True,70.88%,False,True,both_wrong
+finqa-train-000749,finqa,0.237,"The lowest price in Q4 2004 was $15.19. The closing price on March 18, 2005 was $18.79. The growth rate is (18.79 - 15.19) / 15.19 = 3.60 / 15.19 ≈ 0.2370 or 23.70%.",True,False,1.04,False,True,prompt_a_only_correct
+finqa-train-000759,finqa,0.3118,16.5%,False,True,16.5%,False,True,both_wrong
+finqa-train-000766,finqa,38316.32653,"$38,306 million",False,False,"$4,030 million",False,False,both_wrong
+finqa-train-000809,finqa,0.91083,28.6%,False,True,28.6%,False,True,both_wrong
+finqa-train-000857,finqa,0.82571,$14 million,False,False,$14 million,False,False,both_wrong
+finqa-train-000898,finqa,0.1231,-22.6%,False,True,1.0%,False,True,both_wrong
+finqa-train-000942,finqa,1.8,29.9 billion square feet in 2004 compared to 28.1 billion square feet in 2003.,False,False,29.9 billion square feet in 2004 compared to 28.1 billion square feet in 2003.,False,False,both_wrong
+finqa-train-000973,finqa,-0.06105,"The rental expense net of sublease income was approximately $4,660 for fiscal 2004 and $4,963 for fiscal 2003. The percentage change from 2003 to 2004 is calculated as:
+
+((4,660 - 4,963) / 4,963) × 100% = (-303 / 4,963) × 100% ≈ -6.11%
+
+So the rental expense decreased by approximately 6.11% from 2003 to 2004.",False,False,-1.8%,False,True,both_wrong
+finqa-train-000975,finqa,-1.0,10,False,True,10,False,True,both_wrong
+finqa-train-000981,finqa,0.09235,"$13,102,500",False,True,"$13,102,500",False,True,both_wrong
+finqa-train-001018,finqa,0.17413,"The percent of the estimated fair value of tax benefit of net operating losses to the total purchase price is calculated as:
+
+Tax benefit of net operating losses = $404.1 million
+Total purchase price = $2,320.7 million
+
+Percent = (404.1 / 2320.7) × 100 = 17.41%
+
+Rounded to two decimal places: 17.41%",True,False,7.8%,False,True,prompt_a_only_correct
+finqa-train-001048,finqa,3.31,$431,False,True,$ 431 per $ 100 invested,False,False,both_wrong
+finqa-train-001148,finqa,0.00267,"The table shows:
+
+- Consolidated multifamily communities: 303 communities, 100,595 units  
+- Unconsolidated multifamily communities: 1 community, 269 units  
+- Total multifamily communities: 304 communities, 100,864 units  
+
+The unconsolidated units are 269 out of the total 100,864 units.
+
+Percentage = (269 / 100,864) × 100 ≈ 0.2667%
+
+Rounded to two decimal places: 0.27%
+
+So the percentage of unconsolidated units among the total units is approximately 0.27%.",True,False,9.0%,False,True,prompt_a_only_correct
+finqa-train-001241,finqa,0.39843,125.0%,False,True,12.4%,False,True,both_wrong
+finqa-train-001246,finqa,0.86917,92.0%,False,True,19.2%,False,True,both_wrong
+finqa-train-001304,finqa,0.97146,89.2%,False,True,79.3%,False,True,both_wrong
+finqa-train-001347,finqa,18576.0,"The cash flow of Entergy Mississippi is affected by the money pool balance through the replacement of a receivable with a note receivable. In May 2007, $6.6 million of Entergy Mississippi's receivable from the money pool was replaced by a note receivable from Entergy New Orleans. This transaction effectively converts a short-term receivable into a longer-term note receivable, which impacts the timing and classification of cash flows. The money pool balance decreased from $39,573 (2006) to $20,997 (2007), indicating a reduction in receivables from the pool, which is offset by the note receivable issuance. This change affects cash flow by potentially delaying cash inflows and altering the company's liquidity profile.",False,False,"The cash flow of Entergy Mississippi is affected by the money pool balance through the replacement of $6.6 million of receivable from the money pool with a note receivable from Entergy New Orleans in May 2007. This transaction converts a short-term receivable into a longer-term note receivable, which impacts the timing and classification of cash flows.",False,False,both_wrong
+finqa-train-001356,finqa,-0.13249,-11.36%,False,True,-11.35%,False,True,both_wrong
+finqa-train-001404,finqa,0.20228,15.0%,False,True,1.2%,False,True,both_wrong
+finqa-train-001416,finqa,29.6,239.6,False,True,239.6,False,True,both_wrong
+finqa-train-001442,finqa,-0.10714,-3,False,True,$3,False,True,both_wrong
+finqa-train-001455,finqa,30.69,222.47,False,True,222.47,False,True,both_wrong
+finqa-train-001554,finqa,0.4878,$60,False,True,$60,False,True,both_wrong
+finqa-train-001573,finqa,543.194,467.3,False,True,467.3,False,True,both_wrong
+finqa-train-001680,finqa,432.5,97.9,False,True,97.9,False,True,both_wrong
+finqa-train-001696,finqa,0.4881,"The United States has 40 owned facilities and 1 leased facility, totaling 41 facilities. The total number of facilities is 84. Therefore, the portion of total facilities located in the United States is 41/84, which is approximately 48.8%.",True,False,United States: 40 owned + 1 leased = 41 facilities. Total facilities = 41 + 2 + 12 + 27 = 82. Portion = 41/82 = 0.5 or 50%.,False,False,prompt_a_only_correct
+finqa-train-001740,finqa,1.2379,United Parcel Service Inc. had a cumulative total shareholder return of **223.79%** for the five years ended 12/31/2014.,False,False,123.79%,True,True,prompt_b_only_correct
+finqa-train-001772,finqa,0.80672,32.8%,False,True,32.8%,False,True,both_wrong
+finqa-train-001794,finqa,0.14936,"The balance at December 31, 2012 was $80.8 million and the balance at January 1, 2012 was $70.3 million. The percentage change is calculated as:
+
+((80.8 - 70.3) / 70.3) * 100 = (10.5 / 70.3) * 100 ≈ 14.94%
+
+So the percentage change in redeemable non-controlling interest in 2012 was approximately 14.94%.",True,False,"The user wants the percentage change in redeemable non-controlling interest for 2012. The table shows balance at December 31 for 2012 is $80.8 million, and balance at January 1 for 2012 is $70.3 million. The percentage change from beginning to end of year is (80.8 - 70.3) / 70.3 = 10.5 / 70.3 ≈ 0.14936 = 14.94%. The user asks ""what was the percentage change in the redeemable non-controlling in 2012"". Likely they want the change from 2011 to 2012? But the table shows balance at December 31 for 2012 is $80.8, and for 2011 is $70.3. That's also a change. However the context before table mentions ""redeemable non-controlling interest"" and the table includes that line. The question is ambiguous but likely they want the change from 2011 to 2012 (i.e., the percentage change in the balance at year-end",False,False,prompt_a_only_correct
+finqa-train-001902,finqa,0.17978,"The percentage of stock option awards expected to vest is calculated as:
+
+Expected to vest / Total = 9.6 / 53.4 = 0.1798 ≈ 18.0%
+
+Answer: 18.0%",True,False,9.6%,False,True,prompt_a_only_correct
+finqa-train-001925,finqa,0.39397,"The user wants the percentage of liquid securities and other cash collateral held against derivative receivables in relation to the total net of all collateral in 2018.
+
+From the table:
+- Total net of all collateral (2018): $38,891 million
+- Liquid securities and other cash collateral held against derivative receivables (a): $15,322 million (note the negative sign in the table is just indicating it's a reduction, but the absolute value is 15,322)
+
+Percentage = (Liquid collateral / Total net of all collateral) * 100
+= (15,322 / 38,891) * 100
+
+Let's calculate:
+15,322 / 38,891 ≈ 0.3940
+0.3940 * 100 = 39.40%
+
+So the answer is approximately 39.4%.
+
+The user wants only the final answer. I should provide the percentage rounded appropriately.",True,False,33.5%,False,True,prompt_a_only_correct
+finqa-train-001955,finqa,1366.0,"The variance between the mortgage loans average and period-end balance is $1,366 million (average $5,145 million vs. period-end $3,779 million).",False,False,"$1,366 million",True,False,prompt_b_only_correct
+finqa-train-001979,finqa,0.05201,"The growth rate in net revenue from 2006 to 2007 is calculated as:
+
+(2007 Net Revenue - 2006 Net Revenue) / 2006 Net Revenue × 100%
+= ($991.1 million - $942.1 million) / $942.1 million × 100%
+= $49.0 million / $942.1 million × 100%
+≈ 5.20%
+
+The growth rate in net revenue in 2007 is approximately 5.20%.",True,False,1.0520,False,True,prompt_a_only_correct
+finqa-train-002123,finqa,0.12599,"The fuel obligations amount is $5,859 million. The total contractual obligations, commitments and other liabilities is $46,505 million. The percentage is (5,859 / 46,505) * 100 = 12.60%.",True,False,12.0%,False,True,prompt_a_only_correct
+finqa-train-002159,finqa,141891.66667,17027,False,True,141893.75,False,True,both_wrong
+finqa-train-002163,finqa,-5.55556,"The reserves for environmental matters decreased from $30.6 million at December 31, 2016 to $28.9 million at December 31, 2017. The percentual decrease is calculated as:
+
+(30.6 - 28.9) / 30.6 = 1.7 / 30.6 ≈ 0.0556 or 5.56%
+
+So the percentual decrease observed in the reserves for environmental matters during 2016 and 2017 is approximately 5.56%.",False,False,"The user wants the percentual decrease observed in the reserves for environmental matters during 2016 and 2017. The context provides the reserves at end of 2017 and 2016: $28.9 million (2017) and $30.6 million (2016). The decrease from 2016 to 2017 is $30.6 - $28.9 = $1.7 million. Percentual decrease = (decrease / original) * 100 = (1.7 / 30.6) * 100 ≈ 5.555...%. Rounded to maybe one decimal? The instruction says ""Return only the final answer."" So just give the percentage. Probably as a number with % sign. I'll compute precisely: 1.7/30.6 = 0.055555... = 5.56% (rounded to two decimals). Could also be 5.6% if rounding to one decimal. I'll give 5.6% as it's typical.",False,False,both_wrong
+finqa-train-002181,finqa,-0.10456,-13.1%,False,True,-13.8%,False,True,both_wrong
+finqa-train-002189,finqa,0.05303,-5.4%,False,True,-3.6%,False,True,both_wrong
+finqa-train-002260,finqa,1.0,0.9,False,True,1.2,False,True,both_wrong
+finqa-train-002276,finqa,0.11852,6.7%,False,True,6.7%,False,True,both_wrong
+finqa-train-002410,finqa,0.007,1.4%,False,True,1.0%,False,True,both_wrong
+finqa-train-002417,finqa,0.94624,88%,False,True,99%,False,True,both_wrong
+finqa-train-002428,finqa,184.0,$118 million,False,False,$118 million,False,False,both_wrong
+finqa-train-002431,finqa,5.3,3.6,False,True,3.6,False,True,both_wrong
+finqa-train-002437,finqa,0.1802,"The combined total of operating leases and purchase obligations is $846 million + $1507 million = $2353 million. The total payments due is $13058 million. The percentage is (2353 / 13058) * 100 = 18.03%. Rounded to one decimal place, it's 18.0%.
+
+Wait, let me double-check the numbers:
+- Operating leases: $846 million
+- Purchase obligations: $1507 million
+- Combined: $846 + $1507 = $2353 million
+- Total payments due: $13058 million
+- Percentage: (2353 / 13058) * 100 = 18.03%
+
+So the answer is 18.0%.",True,False,13.1%,False,True,prompt_a_only_correct
+finqa-train-002449,finqa,-6.0,$ -7 ( 7 ),False,False,-7 ( 7 ),False,False,both_wrong
+finqa-train-002506,finqa,47501.7,"$5,574,000",False,True,"$1,076,000",False,True,both_wrong
+finqa-train-002527,finqa,0.23103,9.8%,False,True,9.8%,False,True,both_wrong
+finqa-train-002546,finqa,95.0,165,False,True,165,False,True,both_wrong
+finqa-train-002649,finqa,20453.614,7282,False,True,7282,False,True,both_wrong
+finqa-train-002689,finqa,-0.25758,"The allowance for uncollectible accounts decreased from $462 at the end of 2004 to $343 at the end of 2005. The percentage change is calculated as:
+
+((343 - 462) / 462) * 100% = (-119 / 462) * 100% ≈ -25.76%
+
+Rounded to two decimal places, the percentage change is -25.76%.",True,False,-15.7%,False,True,prompt_a_only_correct
+finqa-train-002747,finqa,0.1811,The tax rate associated with the recognized non-cash net gain from obtaining a controlling interest in AWE is **23%**.,False,False,The tax rate associated with the recognized non-cash net gain from obtaining a controlling interest in AWE is 22%.,False,False,both_wrong
+finqa-train-002771,finqa,60.0,"The expected benefit payments in 2009 were $203 (in thousands) and in 2010 were $263 (in thousands). The percentage change is calculated as:
+
+((263 - 203) / 203) * 100 = (60 / 203) * 100 ≈ 29.56%
+
+So the percentage change from 2009 to 2010 is approximately 29.56%.",False,False,15.0%,False,True,both_wrong
+finqa-train-002799,finqa,260.90909,"The context provided does not contain information about the number of shares outstanding. It only mentions the number of stockholders of record (73 for Class A and approximately 287 for Class B) and the percentage of Class B stock relative to total outstanding equity (1.1%), but it does not give the actual total shares outstanding.
+
+Therefore, based on the given information, the number of shares outstanding cannot be determined.",False,False,"The context provided does not contain information about the number of shares outstanding. It only mentions the number of stockholders of record (73 for Class A and approximately 287 for Class B) and the percentage of total outstanding equity held by Class B stockholders (1.1%). However, the actual number of shares outstanding is not stated in the text.
+
+Therefore, based on the given evidence, the number of shares outstanding cannot be determined.",False,False,both_wrong
+finqa-train-002812,finqa,-0.01919,"The user wants the percentage change in total gross amount of unrecognized tax benefits from 2011 to 2012.
+
+We need to calculate the percentage change. The table shows ""beginning balance"" and ""ending balance"" for unrecognized tax benefits. The question asks for ""total gross amount of unrecognized tax benefits"". This likely refers to the ending balance (the total gross amount). Or it could refer to the sum of gross increases and decreases? But typically ""total gross amount"" means the ending balance.
+
+Let's check: The table columns are 2012 and 2011. The rows: beginning balance, gross increases, gross decreases, settlements, lapse, foreign exchange, ending balance.
+
+We need the total gross amount for 2011 and 2012. The ending balance for 2011 is $163,607 (thousands). For 2012 it's $160,468 (thousands).
+
+Percentage change = (Ending 2012 - Ending 2011) / Ending 2011 * 100.
+
+(160,468 - 163,607) = -",False,False,"The user wants the percentage change in total gross amount of unrecognized tax benefits from 2011 to 2012.
+
+First, I need to understand what ""total gross amount of unrecognized tax benefits"" means. Looking at the table, there are several columns: beginning balance, gross increases in unrecognized tax benefits (prior year tax positions), gross decreases in unrecognized tax benefits (prior year tax positions), gross increases in unrecognized tax benefits (current year tax positions), settlements with taxing authorities, lapse of statute of limitations, foreign exchange gains and losses, ending balance.
+
+The phrase ""total gross amount of unrecognized tax benefits"" likely refers to the ending balance of unrecognized tax benefits, which is the total amount of unrecognized tax benefits as of the end of the year. This is a common term in tax accounting - unrecognized tax benefits are tax positions that have not been recognized in the financial statements, often due to uncertainty.
+
+So I need to calculate the percentage change from 2011 ending balance to 2012 ending balance.
+
+2011 ending balance: $163,607 (in thousands)
+2012 ending balance: $160,468 (in thousands)
+
+Percentage change = (2012 -",False,False,both_wrong
+finqa-train-002880,finqa,0.17895,"$9,127,000",False,True,"$9,127,000",False,True,both_wrong
+finqa-train-002884,finqa,0.05782,"The user wants the percentage increase in inventories balance due to the adoption of LIFO in 2012. The table shows:
+
+- Inventories at FIFO net (Dec 28, 2013): $2,424,795
+- Inventories at FIFO net (Dec 29, 2012): $2,182,419
+
+- Adjustments to state inventories at LIFO (Dec 28, 2013): $131,762
+- Adjustments to state inventories at LIFO (Dec 29, 2012): $126,190
+
+- Inventories at LIFO net (Dec 28, 2013): $2,556,557
+- Inventories at LIFO net (Dec 29, 2012): $2,308,609
+
+The question asks: ""what is the percentage increase in inventories balance due to the adoption of lifo in 2012?""
+
+Interpretation: The adoption of LIFO in 2012 (fiscal year 2012) changed the inventory valuation method from FIFO to LIFO. The ""percentage",False,False,"The user wants the percentage increase in inventories balance due to the adoption of LIFO in 2012. The context mentions that in 2012, the company adopted ASU 2012-02 regarding impairment testing, but that's not about LIFO. The table shows inventories at FIFO net and adjustments to state inventories at LIFO, and inventories at LIFO net for both years.
+
+We need to calculate the percentage increase in the LIFO net inventory balance from 2011 to 2012? Wait, the question says ""due to the adoption of lifo in 2012"". The company used LIFO for approximately 95% of inventories at both December 28, 2013 and December 29, 2012. The adoption of LIFO likely happened earlier, but the question might be asking about the change in LIFO net inventory balance from 2011 to 2012? However, the table only provides data for 2012 and 2013. The context mentions fiscal 2011 had an increase to cost of sales due to supply chain costs, but not inventory balances.
+
+Maybe the question is: what is the percentage increase in",False,False,both_wrong
+finqa-train-003143,finqa,0.39362,"The total depreciation and amortization expenses increased from $197.4 million in 2006 to $275.1 million in 2008.
+
+Increase = $275.1 million - $197.4 million = $77.7 million
+
+Percentage increase = (Increase / 2006 amount) × 100%
+= ($77.7 million / $197.4 million) × 100%
+≈ 39.3%
+
+So the total depreciation and amortization expenses increased by approximately 39.3% between 2006 and 2008.",False,False,13.3%,False,True,both_wrong
+finqa-train-003289,finqa,58227848.10127,"Based on the information provided, we can calculate the number of shares outstanding in 2013 using the total cash dividends paid and the dividends per share.
+
+From the context:
+- Cash dividends paid in 2013 totaled $92.0 million
+- Cash dividends paid per common share in 2013 was $1.58
+
+Calculation:
+Number of shares outstanding = Total cash dividends paid / Dividends per share
+Number of shares outstanding = $92.0 million / $1.58 per share
+Number of shares outstanding ≈ 58,227,848 shares
+
+So, approximately 58.2 million shares were outstanding in 2013.",False,False,"1,000,000",False,True,both_wrong
+finqa-train-003319,finqa,0.0581,5.81%,True,True,5.81%,True,True,both_correct
+finqa-train-003383,finqa,34.5,0.0085,False,True,0.8,False,True,both_wrong
+finqa-train-003386,finqa,599.0,279,False,True,1760,False,True,both_wrong
+finqa-train-003428,finqa,0.63636,"The user wants the percentage change in inventory between 2005 and 2006.
+
+From the table:
+- Inventory for September 24, 2005: $165 million
+- Inventory for September 30, 2006: $270 million
+
+Percentage change = ((2006 - 2005) / 2005) * 100
+= ((270 - 165) / 165) * 100
+= (105 / 165) * 100
+= 0.636363... * 100
+= 63.6363...%
+
+Rounded to two decimal places: 63.64%
+
+The user wants only the final answer. I should provide just the number.
+
+Check if any other context is needed? The question is straightforward based on the table.
+
+Final answer: 63.64%",True,False,10.0%,False,True,prompt_a_only_correct
+finqa-train-003474,finqa,0.68381,13.6%,False,True,10.3%,False,True,both_wrong
+finqa-train-003520,finqa,-0.01,-0.7%,False,True,53% - 54% = -1%,True,False,prompt_b_only_correct
+finqa-train-003581,finqa,0.13661,12.5%,False,True,12.5%,False,True,both_wrong
+finqa-train-003625,finqa,2.0,0.2%,False,True,0.02,False,True,both_wrong
+finqa-train-003652,finqa,0.26786,"To find the percentage of total revenues net of interest expense that was non-interest revenue in 2008, we need to use the data from the table.
+
+From the table:
+- Total revenues net of interest expense in 2008: $24,453 million
+- Non-interest revenue in 2008: $6,550 million
+
+The percentage is calculated as:
+(Non-interest revenue / Total revenues net of interest expense) × 100
+= (6,550 / 24,453) × 100
+≈ 26.78%
+
+So, non-interest revenue constituted approximately 26.78% of total revenues net of interest expense in 2008.
+
+Final answer: 26.78%",False,False,70%,False,True,both_wrong
+finqa-train-003656,finqa,5.43333,0.41,False,True,0.41,False,True,both_wrong
+finqa-train-003817,finqa,0.40538,"1723139 shares (or units) out of a total of 4,250,646 shares (or units) were repurchased in November, which is approximately 40.5% of the total.",True,False,1723139,False,True,prompt_a_only_correct
+finqa-train-003938,finqa,51.11111,"The management fees earned in 2015 were $6.8 million and in 2016 were $4.5 million. The percent change is calculated as:
+
+((4.5 - 6.8) / 6.8) * 100 = (-2.3 / 6.8) * 100 ≈ -33.82%
+
+So the percent change is approximately -33.82%.",False,False,13.5%,False,True,both_wrong
+finqa-train-003940,finqa,0.30145,"Entergy Gulf States' total capability is 6,485 MW. The total capability of all companies is 21,513 MW. Therefore, the portion generated by Entergy Gulf States is 6,485 / 21,513 ≈ 0.3014, or 30.14%.",True,False,12.5%,False,True,prompt_a_only_correct
+finqa-train-003942,finqa,856.0,The 2012 rent expense figure of $488 million is incorrect because it does not match the $610 million shown for 2014 in the table. The correct 2012 rent expense should be $610 million.,False,False,The 2012 rent expense figure of $488 million is incorrect because it does not match the $610 million shown for 2014 in the table. The correct 2012 rent expense should be $610 million.,False,False,both_wrong
+finqa-train-003943,finqa,0.07827,17.4%,False,True,17.4%,False,True,both_wrong
+finqa-train-003949,finqa,49.9598,1.21,False,True,1.21,False,True,both_wrong
+finqa-train-003954,finqa,0.91453,10%,False,True,10%,False,True,both_wrong
+finqa-train-003968,finqa,yes,Yes,True,True,Yes,True,True,both_correct
+finqa-train-004007,finqa,11310.0,3.0%,False,True,10.1%,False,True,both_wrong
+finqa-train-004036,finqa,0.53599,"The user wants to know what percent of printing papers sales in 2007 was from North American printing papers net sales.
+
+We have a table showing sales in millions for 2007, 2006, 2005:
+- sales: $6530 (2007), $6700 (2006), $6980 (2005)
+
+We also have context after the table stating:
+""north american printing papers net sales in 2007 were $ 3.5 billion compared with $ 4.4 billion in 2006 ( $ 3.5 billion excluding the coated and super- calendered papers business ) and $ 4.8 billion in 2005 ( $ 3.2 billion excluding the coated and super- calendered papers business )""
+
+So North American printing papers net sales in 2007 = $3.5 billion.
+
+Total printing papers sales in 2007 from the table = $6530 million.
+
+We need to calculate the percentage: (3500 / 6530) * 100.
+
+3500 / 6",False,False,10.0%,False,True,both_wrong
+finqa-train-004101,finqa,288.0,320,False,True,279,False,True,both_wrong
+finqa-train-004135,finqa,-108.0,-18,False,True,-18,False,True,both_wrong
+finqa-train-004137,finqa,0.29622,"The capital expenditures in 2017 were $476 million and in 2018 were $617 million. The percentage change is calculated as:
+
+((617 - 476) / 476) * 100 = (141 / 476) * 100 ≈ 29.62%
+
+So the percentage change in capital expenditures between 2017 and 2018 was approximately 29.6%.",True,False,7.5%,False,True,prompt_a_only_correct
+finqa-train-004145,finqa,0.38477,1.33,False,True,1.33,False,True,both_wrong
+finqa-train-004151,finqa,1.49655,1.77,False,True,1.29,False,True,both_wrong
+finqa-train-004176,finqa,0.0,160,False,True,160,False,True,both_wrong
+finqa-train-004304,finqa,0.8913,"The unrecognized tax benefits at the end of 2013 were $4.6 million. The portion that would impact the effective income tax rate if recognized was approximately $4.6 million (as stated: ""of the $4.6 million ... approximately $4.6 million ... would impact the effective income tax rate if recognized""). Therefore, the percent is 100%.
+
+100%",False,False,"The unrecognized tax benefits at end of year for 2013 is $4.6 million. The portion that would impact the effective income tax rate if recognized is approximately $4.6 million (as stated: ""of the $4.6 million ... approximately $4.6 million ... would impact the effective income tax rate if recognized""). Therefore, the percent is 100%.
+
+Final answer: 100%",False,False,both_wrong
+finqa-train-004390,finqa,300.0,$30,False,True,$30,False,True,both_wrong
+finqa-train-004393,finqa,0.12821,"The consulting and professional fees for 2008 were $13.2 million and for 2009 were $11.7 million. The percent change is calculated as:
+
+((11.7 - 13.2) / 13.2) * 100 = (-1.5 / 13.2) * 100 ≈ -11.36%
+
+So the percent change is approximately -11.36%.",False,False,13.2%,False,True,both_wrong
+finqa-train-004407,finqa,1.36724,100.0%,False,True,10.3%,False,True,both_wrong
+finqa-train-004417,finqa,0.1765,"The Black-Scholes model estimates option prices based on key assumptions: risk-free interest rate, expected life, expected volatility, and expected dividends. The table shows that for 2004 and 2003, the expected life is 4 years, and the expected volatility for the company's plan is 80.6% for 2004 and 86.6% for 2003. The risk-free interest rate is 4.23% for 2004 and 4.00% for 2003. The weighted average fair values per share are $7.05 for 2004 and $6.32 for 2003.
+
+To calculate the percent change in option prices from 2003 to 2004:
+Percent change = ((Price in 2004 - Price in 2003) / Price in 2003) * 100
+Percent change = (($7.05 - $6.32) / $6.32) * 100
+Percent change = ($0.73 / $6.32) * 1",False,False,10.0%,False,True,both_wrong
+finqa-train-004448,finqa,409.9,"282.2, 127.7",False,False,127.7,False,True,both_wrong
+finqa-train-004513,finqa,-0.6021,"The five-year cumulative total return for United Parcel Service Inc. ended 12/31/07 at $122.64, while the S&P 500 index ended at $182.85. The difference is $182.85 - $122.64 = $60.21. To express this as a percentage difference relative to the S&P 500 index: ($60.21 / $182.85) × 100 ≈ 32.94%. Alternatively, relative to UPS: ($60.21 / $122.64) × 100 ≈ 49.11%. The question asks for ""difference in percentage five year cumulative total return for United Parcel Service inc . versus the s&p 500 index"", which typically means the percentage point difference in cumulative returns. The cumulative return for UPS is 22.64% (from $100 to $122.64), and for S&P 500 it is 82.85% (from $100 to $182.85",False,False,10.15%,False,True,both_wrong
+finqa-train-004545,finqa,-2.0,$8,False,True,"The net change in the allowance for doubtful accounts during 2015 is calculated as the ending balance minus the beginning balance. From the table, the beginning balance for 2015 is $77 million and the ending balance is $75 million. Therefore, the net change is $75 million - $77 million = -$2 million.",False,False,both_wrong
+finqa-train-004562,finqa,0.39271,"The user wants the percentage of commercial paper outstanding as of December 31, 2010 that was for non-bank subsidiaries.
+
+From the table:
+- Non-bank: $9.7 billion
+- Bank: $15.0 billion
+- Total Citigroup: $24.7 billion
+
+Percentage = (Non-bank / Total) * 100 = (9.7 / 24.7) * 100
+
+Calculate: 9.7 / 24.7 = 0.3927... * 100 = 39.27%
+
+Round to appropriate decimal places. Typically financial percentages are reported to one decimal place or as a whole number. Let's compute precisely: 9.7 / 24.7 = 0.39266... ≈ 39.3%
+
+The user asks for ""what percentage"". I'll provide the percentage rounded to one decimal place.
+
+Final answer: 39.3%
+
+But I need to check if there's any other context that might affect this. The table shows commercial paper outstanding for Citigroup's non-bank entities and bank subsidiaries. The question specifically asks for the percentage of commercial paper outstanding as of December",True,False,76.5%,False,True,prompt_a_only_correct
+finqa-train-004590,finqa,0.31324,"The question asks: ""what percentage of total brokerage payables at december 31 , 2017 where receivables from customers?"" This seems to be asking: what percentage of total brokerage payables at December 31, 2017 were receivables from customers? That phrasing is odd: receivables from customers are assets, payables are liabilities. Perhaps they mean: what percentage of total brokerage receivables (or maybe they want to know the proportion of receivables from customers relative to total brokerage payables? That doesn't make sense. Could be a typo: maybe they want ""what percentage of total brokerage receivables at December 31, 2017 were receivables from customers?"" Or ""what percentage of total brokerage payables at December 31, 2017 were payables to customers?"" But the question explicitly says ""where receivables from customers"". Could be they want to know the percentage of total brokerage payables that are receivables from customers? That would be mixing categories. Let's parse: ""what percentage of total brokerage payables at december 31 , 2017 where receivables from customers?"" Possibly they want to know the percentage of total brokerage receivables that are receivables from customers? But they wrote ""payables"". Let's examine the table: total brokerage payables",False,False,19.2%,False,True,both_wrong
+finqa-train-004680,finqa,68.8,$35.8 million and $33.0 million,False,False,"2005: 35.8 million
+2004: 33.0 million",False,False,both_wrong
+finqa-train-004725,finqa,36.66667,0.12,False,True,1.06,False,True,both_wrong
+finqa-train-004799,finqa,-0.6038,-13.5%,False,True,-12.3%,False,True,both_wrong
+finqa-train-004800,finqa,9914.0,"$9,914",True,True,13% (13%) lower than 2012,False,False,prompt_a_only_correct
+finqa-train-004860,finqa,5.0,$105,False,True,$105,False,True,both_wrong
+finqa-train-004871,finqa,0.71795,"The question asks: ""as part of plan assets what was the percent of the purchases on the total account balance"". We need to interpret the context and table.
+
+The table shows Level 3 assets (in millions):
+- Balance as of December 31, 2016: $11
+- Purchases: 28
+- Distributions: -1 (1)
+- Gain (Loss): 1
+- Balance as of December 31, 2017: $39
+
+We need to compute the percent of purchases relative to total account balance. Which total account balance? Likely the total account balance at the end of the period? Or maybe the total account balance at the beginning? The phrase ""as part of plan assets"" suggests we consider the plan assets overall, but the table only gives Level 3 assets. However, the question likely expects using the Level 3 data: purchases of $28 million relative to total account balance (maybe the ending balance of $39 million). Or maybe relative to the beginning balance $11 million? Let's examine typical financial reporting: Level 3 assets are a subset of plan assets. The question: ""as part of plan assets what was the percent of the purchases on the",False,False,1.5%,False,True,both_wrong
+finqa-train-004894,finqa,146.67571,"The user wants the percentage increase in Asian cruise guests between 2012 and 2016. The table shows Asia/Pacific cruise guests in thousands:
+
+- 2012: 1474
+- 2016: 3636
+
+Calculate percentage increase: ((3636 - 1474) / 1474) * 100 = (2162 / 1474) * 100 ≈ 146.7%
+
+Let's compute precisely: 2162 / 1474 = 1.466... * 100 = 146.6% (rounded to one decimal). The context after table already states: ""the compound annual growth rate in cruise guests sourced from this market was approximately 25% (25%) from 2012 to 2016."" That's CAGR, not total percentage increase. The question asks for percentage increase, not CAGR. So we need to compute total increase.
+
+Compute: (3636 - 1474) = 2162. 2162 / 1",False,False,15%,False,True,both_wrong
+finqa-train-004899,finqa,0.65672,"The user wants to know what percent of printing papers sales in 2006 was from North American printing papers net sales.
+
+We have a table with ""sales"" in millions for 2007, 2006, 2005: $6530, $6700, $6980 respectively. These are likely total printing papers sales (in millions) for the company.
+
+We also have context after the table: ""north american printing papers net sales in 2007 were $ 3.5 billion compared with $ 4.4 billion in 2006 ( $ 3.5 billion excluding the coated and super- calendered papers business ) and $ 4.8 billion in 2005 ( $ 3.2 billion excluding the coated and super- calendered papers business )""
+
+So North American printing papers net sales in 2006 = $4.4 billion.
+
+Total printing papers sales in 2006 from the table = $6700 million = $6.7 billion.
+
+We need to compute: (North American sales / Total sales) * 100 = (4.4 / 6.",False,False,10.0%,False,True,both_wrong
+finqa-train-004929,finqa,-0.2509,-13.8%,False,True,-15.6%,False,True,both_wrong
+finqa-train-004951,finqa,0.01124,0.02%,False,True,0.02%,False,True,both_wrong
+finqa-train-005000,finqa,0.31325,"The rent expense for 2015 was $83.0 million and for 2016 was $109.0 million.
+
+Percentage change = ((2016 - 2015) / 2015) * 100
+= ((109.0 - 83.0) / 83.0) * 100
+= (26.0 / 83.0) * 100
+≈ 31.33%
+
+So the rent expense increased by approximately 31.33% from 2015 to 2016.",False,False,16.87%,False,True,both_wrong
+finqa-train-005047,finqa,92.50108,"The user wants the percentage of total debt from 2014-2015 that was long-term debt.
+
+From the table:
+- December 31, 2015: Total debt = $1762.3, Long-term debt = $1610.3
+- December 31, 2014: Total debt = $1722.2, Long-term debt = $1612.9
+
+We need to calculate the percentage of total debt that was long-term debt for each year, or perhaps the change? The question says ""what is the percentage of total debt from 2014-2015 that was long-term debt?"" This could be interpreted as:
+1. The percentage of total debt that was long-term debt in 2014
+2. The percentage of total debt that was long-term debt in 2015
+3. The percentage change in long-term debt as a proportion of total debt from 2014 to 2015
+
+Given the phrasing ""from 2014-2015"", it likely means comparing the two years. But the question is ambiguous. It could be",False,False,10.5%,False,True,both_wrong
+finqa-train-005118,finqa,14.5,$24.5,False,True,71.3,False,True,both_wrong
+finqa-train-005161,finqa,0.05405,"The basis point increase in JPMorgan Chase credit spread from 2008 to 2009 was 2 basis points (from $37 million to $39 million). The percent increase is calculated as:
+
+(39 - 37) / 37 * 100% = 2 / 37 * 100% ≈ 5.41%
+
+Final answer: 5.41%",True,False,1.2%,False,True,prompt_a_only_correct
+finqa-train-005186,finqa,0.1014,10.14%,True,True,10.14%,True,True,both_correct
+finqa-train-005214,finqa,0.40604,39.1%,False,True,39.4%,False,True,both_wrong
+finqa-train-005259,finqa,-0.04268,"The total grant-date fair value of shares vested in 2016 was $62.8 million, and in 2015 it was $65.6 million. The percentage change is calculated as:
+
+((62.8 - 65.6) / 65.6) * 100 = (-2.8 / 65.6) * 100 ≈ -4.27%
+
+So the percentage change is approximately -4.27%.",True,False,1.4%,False,True,prompt_a_only_correct
+finqa-train-005286,finqa,0.0538,"The user wants to know: ""credit derivatives for 2017 were what percent of the foreign exchange derivatives?"" We need to compute the percentage: (credit derivatives 2017 / foreign exchange derivatives 2017) * 100.
+
+From the table:
+
+- Credit derivatives 2017: $869 million
+- Foreign exchange 2017: $16,151 million
+
+Compute: 869 / 16151 = ?
+
+Let's calculate: 16151 * 0.05 = 807.55, so it's a bit higher. 869 / 16151 = ?
+
+Do division: 869 / 16151 = 0.0538 approx. Let's compute precisely.
+
+16151 * 0.0538 = 16151 * 0.05 = 807.55; plus 16151 * 0.0038 = 61.3738; sum = 868.9238. So about",False,False,1.5%,False,True,both_wrong
+finqa-train-005376,finqa,0.81873,"The net properties held under capital leases in 2017 were $1,997 million, and in 2016 they were $1,635 million. The ratio is 1,997 / 1,635 = 1.2214, which rounds to 1.22.
+
+Final answer: 1.22",False,False,1.64,False,True,both_wrong
+finqa-train-005462,finqa,2731.0,"1,624 thousand square feet",False,False,1624,False,True,both_wrong
+finqa-train-005468,finqa,1215.0,1215,True,True,1215,True,True,both_correct
+finqa-train-005721,finqa,8129.0,$243 million,False,False,$36 million,False,False,both_wrong
+finqa-train-005743,finqa,0.01515,2.22%,False,True,2.22%,False,True,both_wrong
+finqa-train-005747,finqa,0.38793,"The table shows that Signal and Power Solutions has a total of 116 sites. North America has 45 of these sites.
+
+Percentage = (North America sites / Total Signal and Power Solutions sites) × 100
+= (45 / 116) × 100
+≈ 38.79%
+
+Rounded to two decimal places: 38.79%",True,False,9.48%,False,True,prompt_a_only_correct
+finqa-train-005749,finqa,-130.0,129,False,True,129,False,True,both_wrong
+finqa-train-005757,finqa,0.07424,The consumer packaging profit margin in 2003 was 7.05%.,False,False,"The user wants the consumer packaging profit margin in 2003. The context provides net sales and operating profit for consumer packaging in millions for 2003, 2004, 2005. The table shows:
+
+| in millions | 2005 | 2004 | 2003 |
+| sales | $2590 | $2605 | $2465 |
+| operating profit | $126 | $161 | $183 |
+
+So for 2003:
+- Sales = $2465 million
+- Operating profit = $183 million
+
+Profit margin = Operating profit / Sales = 183 / 2465.
+
+Calculate: 183 / 2465 = ?
+
+2465 * 0.074 = 182.41 (approx). Let's compute precisely: 183 ÷ 2465 = 0.074236... = 7.4236%.
+
+Round to appropriate decimal places? Typically profit margin expressed as percentage. The context doesn't specify rounding. I'll compute to",True,False,prompt_b_only_correct
+finqa-train-005765,finqa,-0.04039,-1.3%,False,True,-1.3%,False,True,both_wrong
+finqa-train-005768,finqa,716.0,1415,False,True,1415,False,True,both_wrong
+finqa-train-005783,finqa,-0.024,The percentage of operating income related to smokeless products decreased from 12.5% in 2012 to 12.2% in 2013.,False,False,-2.3%,False,True,both_wrong
+finqa-train-005793,finqa,13.52,$100.00,False,True,$100.00,False,True,both_wrong
+finqa-train-005815,finqa,0.34726,"2011: 39.0%  
+2010: 57.5%",False,False,"2011: 39.2%  
+2010: 34.8%",False,False,both_wrong
+finqa-train-005834,finqa,13.0,-14,False,True,-13,False,True,both_wrong
+finqa-train-005958,finqa,0.36104,"The question asks for the percentage of restricted stock units (RSUs) that were lost due to restrictions lapsed during the 2014 period.
+
+From the table:
+- Restricted stock units outstanding at November 1, 2014: 3,188 (thousands)
+- Restrictions lapsed: -1,151 (thousands)
+
+To calculate the percentage:
+(1,151 / 3,188) × 100 = 36.11%
+
+So, approximately 36.11% of the restricted stock was lost due to restrictions lapsed in the 2014 period.
+
+Final answer: 36.11%",False,False,11.5%,False,True,both_wrong
+finqa-train-006024,finqa,19867.0,"$ 29,535 + $ 26,674 + $ 3,392 = $ 59,501
+
+Average = $ 59,501 ÷ 3 = $ 19,833.67
+
+$ 19,833.67",False,False,"$ 29535 , $ 26674 and $ 3392 , respectively .",False,False,both_wrong
+finqa-train-006042,finqa,-0.27706,-21.2%,False,True,-14.29%,False,True,both_wrong
+finqa-train-006106,finqa,0.00551,"The total liquidity resources for 2015 is $9,983 million and for 2016 is $10,038 million. The change is $10,038 - $9,983 = $55 million. The percentage change is ($55 / $9,983) * 100 = 0.551%.",True,False,1.01%,False,True,prompt_a_only_correct
+finqa-train-006150,finqa,-34.0,-103,False,True,-103,False,True,both_wrong
+finqa-train-006159,finqa,1747.0,"The variation observed in the value of operating expenses and other costs concerning the activities during 2008 and 2009 is that operating costs were favorable in 2009, reflecting cost control efforts and strong machine performance, while planned maintenance downtime costs were comparable with 2008. In contrast, 2008 had higher shutdown costs for a paper machine at the Franklin mill and higher maintenance outage costs compared to 2009.",False,False,"The variation observed in the value of operating expenses and other costs concerning the activities during 2008 and 2009 is that operating expenses were favorable in 2009, reflecting cost control efforts and strong machine performance, while planned maintenance downtime costs were comparable with 2008. Other costs included $671 million of alternative fuel mixture credits and $223 million of costs associated with the shutdown of the Franklin mill in 2009, compared to $30 million of shutdown costs for a paper machine at the Franklin mill in 2008.",False,False,both_wrong
+finqa-train-006172,finqa,18.2,10.4,False,True,15.5,False,True,both_wrong
+finqa-train-006209,finqa,3239.33333,"$3,219",False,True,"$1,848",False,True,both_wrong
+finqa-valid-000036,finqa,4.85514,10.24,False,True,10.25,False,True,both_wrong
+finqa-valid-000037,finqa,-0.0339,-1.7%,False,True,-13.56%,False,True,both_wrong
+finqa-valid-000051,finqa,4.0,14.0,False,True,14.0,False,True,both_wrong
+finqa-valid-000064,finqa,0.78253,"$412.0 million out of $526.5 million, or approximately 78.3%.",True,False,$ 412.0 million,False,False,prompt_a_only_correct
+finqa-valid-000146,finqa,2022.0,"$1,310 million",False,False,$1316$ million,False,False,both_wrong
+finqa-valid-000154,finqa,18.57143,15.38,False,True,15.38,False,True,both_wrong
+finqa-valid-000273,finqa,0.62912,"The total accumulated other comprehensive losses for 2013 is $4,190 million and for 2014 is $6,826 million. The increase is $6,826 - $4,190 = $2,636 million. The percentage increase is (2,636 / 4,190) * 100% ≈ 62.91%.",True,False,1.5%,False,True,prompt_a_only_correct
+finqa-valid-000324,finqa,0.6748,$67.48,False,True,$67.48,False,True,both_wrong
+finqa-valid-000340,finqa,-33.84,$33.84,False,True,$33.84,False,True,both_wrong
+finqa-valid-000381,finqa,0.33924,3.39%,False,True,7.38%,False,True,both_wrong
+finqa-valid-000453,finqa,0.15118,The total square footage of major facilities (owned + leased) is 54.9 million. Leased facilities total 8.3 million. The percentage of leased facilities is (8.3 / 54.9) × 100 ≈ 15.12%.,True,False,13.6%,False,True,prompt_a_only_correct
+finqa-valid-000458,finqa,643822.41,"$642,000",False,True,"$643,000.00",False,True,both_wrong
+finqa-valid-000496,finqa,0.21923,"The fair value in 2010 was $81,881 million and in 2011 was $99,832 million. The percent change is calculated as:
+
+((99,832 - 81,881) / 81,881) * 100 = (17,951 / 81,881) * 100 ≈ 21.92%
+
+So the fair value increased by approximately 21.92% from 2010 to 2011.",False,False,"The fair value in 2010 was $81,881 million and in 2011 was $99,832 million. The percent change is calculated as:
+
+((99,832 - 81,881) / 81,881) * 100 = (17,951 / 81,881) * 100 ≈ 21.92%
+
+So the fair value increased by approximately 21.92% from 2010 to 2011.",False,False,both_wrong
+finqa-valid-000542,finqa,180041.58004,"$173,200,000 ÷ 962 = $180,041.58 per tower",True,False,"$173,200,000 ÷ 962 = $180,041.58 per tower
+
+Final answer: $180,041.58 per tower",True,False,both_correct
+finqa-valid-000605,finqa,3.50739,10.5:1,False,False,14.24,False,True,both_wrong
+finqa-valid-000659,finqa,37.75428,114.48,False,True,114.48,False,True,both_wrong
+finqa-valid-000709,finqa,0.06198,$15 million,False,False,$13 million,False,False,both_wrong
+finqa-valid-000730,finqa,6.62857,23.2,False,True,3.5,False,True,both_wrong
+finqa-valid-000813,finqa,416.0,416,True,True,416,True,True,both_correct
+finqa-valid-000817,finqa,0.64756,$226 million,False,False,$226 million,False,False,both_wrong
+finqa-valid-000877,finqa,0.01713,"The user wants the percentage change in the common stock and option. However, the context provided does not contain any data about a previous value or a change. It only provides a table with current numbers (in thousands) and some text about rights and collaborations. There is no baseline or previous period data to calculate a percentage change.
+
+The instruction says: ""Return only the final answer."" But there is no calculable answer based on the given data. I should point out that the information is insufficient to calculate a percentage change.
+
+However, the user might be expecting me to calculate the percentage change from the table? But the table only shows current numbers. There's no ""before"" value.
+
+Let's examine the table:
+- common stock under stock and option plans: 21829
+- common stock under the vertex purchase plan: 249
+- common stock under the vertex 401 (k) plan: 125
+- total: 22203
+
+The question: ""what was the percentage change in the common stock and option""
+
+Maybe they want the percentage of the total that is under stock and option plans? That would be (21829 / 22203) * 1",False,False,1.2%,False,True,both_wrong
+financial_mmlu_ko-test-000002,financial_mmlu_ko,2,2,True,True,3,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000004,financial_mmlu_ko,4,5,False,True,5,False,True,both_wrong
+financial_mmlu_ko-test-000007,financial_mmlu_ko,4,5,False,True,5,False,True,both_wrong
+financial_mmlu_ko-test-000009,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000010,financial_mmlu_ko,2,2,True,True,5,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000012,financial_mmlu_ko,5,3,False,True,5,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000013,financial_mmlu_ko,5,5,True,True,5,True,True,both_correct
+financial_mmlu_ko-test-000015,financial_mmlu_ko,5,5,True,True,5,True,True,both_correct
+financial_mmlu_ko-test-000020,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000024,financial_mmlu_ko,5,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000025,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000027,financial_mmlu_ko,2,2,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000028,financial_mmlu_ko,5,5,True,True,1,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000030,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000031,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000032,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000033,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000035,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000036,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000038,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000040,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000041,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000043,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000044,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000048,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000052,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000054,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000057,financial_mmlu_ko,3,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000059,financial_mmlu_ko,1,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000065,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000068,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000070,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000079,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000083,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000088,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000091,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000092,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000095,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000096,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000097,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000100,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000102,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000104,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000105,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000106,financial_mmlu_ko,3,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000108,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000109,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000113,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000116,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000117,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000118,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000120,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000121,financial_mmlu_ko,3,1,False,True,3,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000124,financial_mmlu_ko,1,1,True,True,2,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000126,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000128,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000130,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000131,financial_mmlu_ko,2,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000134,financial_mmlu_ko,2,1,False,True,2,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000136,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000138,financial_mmlu_ko,3,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000141,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000143,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000145,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000147,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000151,financial_mmlu_ko,3,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000152,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000153,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000156,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000158,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000160,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000161,financial_mmlu_ko,2,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000162,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000164,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000167,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000169,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000172,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000173,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000175,financial_mmlu_ko,2,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000177,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000181,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000182,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000188,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000192,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000193,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000194,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000197,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000200,financial_mmlu_ko,3,3,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000203,financial_mmlu_ko,1,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000210,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000214,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000216,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000219,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000221,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000223,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000224,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000225,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000227,financial_mmlu_ko,1,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000229,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000230,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000234,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000235,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000236,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000237,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000241,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000242,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000243,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000244,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000245,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000246,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000247,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000249,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000252,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000253,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000257,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000259,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000260,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000262,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000264,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000268,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000270,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000271,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000273,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000274,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000275,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000279,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000281,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000282,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000283,financial_mmlu_ko,2,1,False,True,1,False,True,both_wrong
+financial_mmlu_ko-test-000284,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000285,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000288,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000291,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000293,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000301,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000302,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000309,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000310,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000312,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000313,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000316,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000319,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000320,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000322,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000323,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000325,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000326,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000331,financial_mmlu_ko,1,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000332,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000334,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000336,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000339,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000348,financial_mmlu_ko,2,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000353,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000354,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000356,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000357,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000358,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000362,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000368,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000369,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000370,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000371,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000372,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000373,financial_mmlu_ko,3,2,False,True,2,False,True,both_wrong
+financial_mmlu_ko-test-000374,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000380,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000385,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000387,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000388,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000390,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000391,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000392,financial_mmlu_ko,2,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000394,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000395,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000397,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000399,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000402,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000404,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000405,financial_mmlu_ko,2,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000406,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000413,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000417,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000419,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000423,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000429,financial_mmlu_ko,2,3,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000430,financial_mmlu_ko,3,1,False,True,3,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000432,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000436,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000438,financial_mmlu_ko,3,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000439,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000442,financial_mmlu_ko,4,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000444,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000445,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000446,financial_mmlu_ko,2,3,False,True,3,False,True,both_wrong
+financial_mmlu_ko-test-000447,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000448,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000450,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000452,financial_mmlu_ko,1,4,False,True,4,False,True,both_wrong
+financial_mmlu_ko-test-000455,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct

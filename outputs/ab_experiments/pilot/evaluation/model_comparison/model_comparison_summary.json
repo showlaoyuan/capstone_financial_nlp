@@ -1,0 +1,91 @@
+{
+  "experiment": "deepseek_v4_pro_vs_solar_pro3_pilot",
+  "comparison_policy": "Compare each model using the prompt variant selected by its own paired A/B pilot recommendation. Rates are recalculated from counts.",
+  "selected_prompt": {
+    "deepseek_v4_pro": "B",
+    "solar_pro3": "A"
+  },
+  "overall": {
+    "answer_accuracy": {
+      "deepseek_v4_pro": 0.71375,
+      "solar_pro3": 0.62625,
+      "difference_deepseek_minus_solar_pp": 8.75,
+      "winner": "deepseek_v4_pro"
+    },
+    "strict_accuracy": {
+      "deepseek_v4_pro": 0.65875,
+      "solar_pro3": 0.58625,
+      "difference_deepseek_minus_solar_pp": 7.25,
+      "winner": "deepseek_v4_pro"
+    },
+    "format_compliance": {
+      "deepseek_v4_pro": 0.9175,
+      "solar_pro3": 0.87625,
+      "difference_deepseek_minus_solar_pp": 4.13,
+      "winner": "deepseek_v4_pro"
+    }
+  },
+  "by_dataset_answer_accuracy": {
+    "fpb": {
+      "deepseek_v4_pro": 0.655,
+      "solar_pro3": 0.725,
+      "difference_deepseek_minus_solar_pp": -7.0,
+      "winner": "solar_pro3"
+    },
+    "fiqa_sa": {
+      "deepseek_v4_pro": 0.705,
+      "solar_pro3": 0.83,
+      "difference_deepseek_minus_solar_pp": -12.5,
+      "winner": "solar_pro3"
+    },
+    "finqa": {
+      "deepseek_v4_pro": 0.61,
+      "solar_pro3": 0.2,
+      "difference_deepseek_minus_solar_pp": 41.0,
+      "winner": "deepseek_v4_pro"
+    },
+    "financial_mmlu_ko": {
+      "deepseek_v4_pro": 0.885,
+      "solar_pro3": 0.75,
+      "difference_deepseek_minus_solar_pp": 13.5,
+      "winner": "deepseek_v4_pro"
+    }
+  },
+  "efficiency": {
+    "average_latency_ms": {
+      "deepseek_v4_pro": 970.21,
+      "solar_pro3": 605.1,
+      "solar_reduction_percent": 37.63
+    },
+    "median_latency_ms": {
+      "deepseek_v4_pro": 916.47,
+      "solar_pro3": 406.07,
+      "solar_reduction_percent": 55.69
+    },
+    "estimated_cost_usd": {
+      "deepseek_v4_pro": 0.11144416,
+      "solar_pro3": 0.05736315,
+      "solar_reduction_percent": 48.53
+    }
+  },
+  "prompt_effects": {
+    "deepseek_v4_pro": {
+      "recommended_variant": "B",
+      "b_minus_a_answer_accuracy_pp": -0.25,
+      "b_minus_a_strict_accuracy_pp": 3.37,
+      "b_minus_a_format_compliance_pp": 5.37
+    },
+    "solar_pro3": {
+      "recommended_variant": "A",
+      "b_minus_a_answer_accuracy_pp": -3.63,
+      "b_minus_a_strict_accuracy_pp": -0.25,
+      "b_minus_a_format_compliance_pp": 7.37
+    }
+  },
+  "interpretation": {
+    "overall_accuracy": "DeepSeek V4 Pro performs better overall.",
+    "task_strengths": "Solar Pro 3 leads on FPB and FiQA-SA sentiment tasks; DeepSeek V4 Pro leads on FinQA numeric reasoning and financial_mmlu_ko multiple-choice questions.",
+    "efficiency": "Solar Pro 3 is faster and cheaper in this pilot."
+  },
+  "limitation": "The fixed pilot contains 200 records per dataset. The result is specific to this sample, model versions, prompts, decoding settings, API conditions, and the evaluation rules; it is not a universal claim about Chinese or Korean language models."
+}

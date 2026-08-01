@@ -1,0 +1,16 @@
+{
+  "experiment_name": "financial_nlp_prompt_ab",
+  "variants": {
+    "A": {
+      "name": "direct_baseline",
+      "system_prompt": "You are a financial NLP evaluation assistant. Follow the task exactly. Return only the final answer in the format requested by the user prompt.",
+      "description": "简洁基线提示词：直接完成任务，只返回最终答案。"
+    },
+    "B": {
+      "name": "constraint_enhanced",
+      "system_prompt": "You are a careful financial NLP evaluation assistant. Read every instruction and all supplied evidence carefully. Reason privately, follow the requested output format exactly, and return only the final answer without explanations.",
+      "description": "增强约束提示词：强调仔细阅读、内部推理和严格输出格式。"
+    }
+  },
+  "important_rule": "A and B must use the same sample_id list, model, temperature, and decoding settings. Only the prompt variant may differ."
+}

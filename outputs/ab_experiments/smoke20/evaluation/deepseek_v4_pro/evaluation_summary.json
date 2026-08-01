@@ -1,0 +1,121 @@
+{
+  "experiment": "deepseek_v4_pro_smoke20_prompt_ab",
+  "scoring_rules": {
+    "answer_accuracy": "Parsed answer matches the reference. For FinQA, the last numeric value is evaluated with displayed-precision tolerance and percent/decimal equivalence.",
+    "strict_accuracy": "The answer is correct and the response obeys the required answer-only format.",
+    "format_compliance": "The complete response contains only the requested label, choice number, or numeric answer."
+  },
+  "prompt_a": {
+    "records": 80,
+    "answer_correct": 58,
+    "answer_accuracy": 0.725,
+    "strict_correct": 52,
+    "strict_accuracy": 0.65,
+    "format_valid": 72,
+    "format_compliance": 0.9,
+    "by_dataset": {
+      "fpb": {
+        "records": 20,
+        "answer_correct": 15,
+        "answer_accuracy": 0.75,
+        "strict_correct": 15,
+        "strict_accuracy": 0.75,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      },
+      "fiqa_sa": {
+        "records": 20,
+        "answer_correct": 12,
+        "answer_accuracy": 0.6,
+        "strict_correct": 12,
+        "strict_accuracy": 0.6,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      },
+      "finqa": {
+        "records": 20,
+        "answer_correct": 12,
+        "answer_accuracy": 0.6,
+        "strict_correct": 6,
+        "strict_accuracy": 0.3,
+        "format_valid": 12,
+        "format_compliance": 0.6
+      },
+      "financial_mmlu_ko": {
+        "records": 20,
+        "answer_correct": 19,
+        "answer_accuracy": 0.95,
+        "strict_correct": 19,
+        "strict_accuracy": 0.95,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      }
+    },
+    "failed_api_calls": 0,
+    "average_latency_ms": 1619.82,
+    "median_latency_ms": 1500.47,
+    "estimated_cost_usd": 0.01162528
+  },
+  "prompt_b": {
+    "records": 80,
+    "answer_correct": 59,
+    "answer_accuracy": 0.7375,
+    "strict_correct": 55,
+    "strict_accuracy": 0.6875,
+    "format_valid": 72,
+    "format_compliance": 0.9,
+    "by_dataset": {
+      "fpb": {
+        "records": 20,
+        "answer_correct": 16,
+        "answer_accuracy": 0.8,
+        "strict_correct": 16,
+        "strict_accuracy": 0.8,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      },
+      "fiqa_sa": {
+        "records": 20,
+        "answer_correct": 14,
+        "answer_accuracy": 0.7,
+        "strict_correct": 14,
+        "strict_accuracy": 0.7,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      },
+      "finqa": {
+        "records": 20,
+        "answer_correct": 11,
+        "answer_accuracy": 0.55,
+        "strict_correct": 7,
+        "strict_accuracy": 0.35,
+        "format_valid": 12,
+        "format_compliance": 0.6
+      },
+      "financial_mmlu_ko": {
+        "records": 20,
+        "answer_correct": 18,
+        "answer_accuracy": 0.9,
+        "strict_correct": 18,
+        "strict_accuracy": 0.9,
+        "format_valid": 20,
+        "format_compliance": 1.0
+      }
+    },
+    "failed_api_calls": 0,
+    "average_latency_ms": 1238.34,
+    "median_latency_ms": 1264.88,
+    "estimated_cost_usd": 0.01196202
+  },
+  "paired_comparison": {
+    "both_correct": 52,
+    "prompt_a_only_correct": 6,
+    "prompt_b_only_correct": 7,
+    "both_wrong": 15
+  },
+  "preliminary_recommendation": {
+    "winner": "B",
+    "reason": "Prompt B has more strict correct answers."
+  },
+  "limitation": "Only 20 records per dataset were evaluated. The smoke test is suitable for pipeline validation and preliminary prompt selection, but not a final performance claim."
+}

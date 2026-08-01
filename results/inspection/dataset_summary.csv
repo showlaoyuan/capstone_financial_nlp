@@ -1,0 +1,9 @@
+﻿dataset,split,row_count,column_count,columns,memory_mb
+fpb,full,4846,2,sentence | label,1.0811
+fiqa_sa,train,822,6,_id | sentence | target | aspect | score | type,0.2911
+fiqa_sa,valid,117,6,_id | sentence | target | aspect | score | type,0.0418
+fiqa_sa,test,234,6,_id | sentence | target | aspect | score | type,0.0826
+finqa,train,6251,11,pre_text | post_text | filename | table_ori | table | qa | id | table_retrieved | text_retrieved | table_retrieved_all | text_retrieved_all,11.068
+finqa,dev,883,11,pre_text | post_text | filename | table_ori | table | qa | id | table_retrieved | text_retrieved | table_retrieved_all | text_retrieved_all,1.5584
+finqa,test,1147,11,pre_text | post_text | filename | table_ori | table | qa | id | table_retrieved | text_retrieved | table_retrieved_all | text_retrieved_all,2.045
+financial_mmlu_ko,test,455,2,conversation_id | conversations,0.0811

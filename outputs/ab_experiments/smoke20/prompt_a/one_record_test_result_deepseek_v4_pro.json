@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "provider": "deepseek",
+  "request_number": 1,
+  "scope": "smoke20",
+  "variant": "A",
+  "sample_id": "fpb-full-000319",
+  "dataset": "fpb",
+  "model": "deepseek-v4-pro",
+  "thinking_mode": "disabled",
+  "prediction": "positive",
+  "input_tokens": 112,
+  "cache_hit_input_tokens": 0,
+  "cache_miss_input_tokens": 112,
+  "output_tokens": 1,
+  "total_tokens": 113,
+  "latency_ms": 1744.37,
+  "estimated_cost_usd": 4.959e-05,
+  "response_id": "6088b187-b7fc-4805-80b3-6636da9353b1",
+  "started_at_utc": "2026-07-20T15:52:57.274399+00:00",
+  "finished_at_utc": "2026-07-20T15:52:59.018680+00:00"
+}

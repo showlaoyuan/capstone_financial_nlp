@@ -1,0 +1,5 @@
+﻿dataset_name,source_repo,revision,download_date,split,expected_rows,raw_path,notes
+financial-mmlu-ko,allganize/financial-mmlu-ko,2b827871962e2f8dd3efb118d105f04c597f6f03,2026-07-10,test,455,data/raw/financial_mmlu_ko,Raw public dataset snapshot; original files not modified.
+fpb,takala/financial_phrasebank,8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964,2026-07-10,unsplit,4846,data/raw/fpb,Selected config: sentences_50agree; source ZIP preserved; no official train/valid/test split.
+fiqa_sa,TheFinAI/fiqa-sentiment-classification,b669064ceb406dfc33a86a8ddce203b7395a0fa1,2026-07-10,train/valid/test,1173,data/raw/fiqa_sa,"Official splits preserved: train=822, valid=117, test=234; raw files not modified."
+finqa,czyssrs/FinQA,0f16e2867befa6840783e58be38c9efb9229d742,2026-07-10,train/dev/test,8281,data/raw/finqa,"Official labeled splits preserved: train=6251, dev=883, test=1147; private_test excluded because gold references are unavailable."

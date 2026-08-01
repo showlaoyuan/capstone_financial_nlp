@@ -1,0 +1,81 @@
+﻿sample_id,dataset,reference_answer,prompt_a_prediction,prompt_a_answer_correct,prompt_a_format_valid,prompt_b_prediction,prompt_b_answer_correct,prompt_b_format_valid,comparison_category
+fpb-full-000319,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000527,fpb,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fpb-full-000687,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-000710,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-001127,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-001137,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-001224,fpb,neutral,neutral,True,True,positive,False,True,prompt_a_only_correct
+fpb-full-001290,fpb,positive,positive,True,True,positive,True,True,both_correct
+fpb-full-002581,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-002887,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003104,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003299,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003384,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003523,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-003702,fpb,neutral,positive,False,True,positive,False,True,both_wrong
+fpb-full-003774,fpb,neutral,positive,False,True,neutral,True,True,prompt_b_only_correct
+fpb-full-003943,fpb,neutral,neutral,True,True,neutral,True,True,both_correct
+fpb-full-004197,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004401,fpb,negative,negative,True,True,negative,True,True,both_correct
+fpb-full-004723,fpb,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-test-000067,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-test-000079,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000119,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-test-000195,fiqa_sa,negative,positive,False,True,positive,False,True,both_wrong
+fiqa_sa-train-000054,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000124,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000272,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000284,fiqa_sa,neutral,neutral,True,True,neutral,True,True,both_correct
+fiqa_sa-train-000289,fiqa_sa,positive,neutral,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000317,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000357,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000399,fiqa_sa,negative,neutral,False,True,negative,True,True,prompt_b_only_correct
+fiqa_sa-train-000454,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000514,fiqa_sa,negative,negative,True,True,negative,True,True,both_correct
+fiqa_sa-train-000530,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000646,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-train-000648,fiqa_sa,negative,positive,False,True,neutral,False,True,both_wrong
+fiqa_sa-train-000691,fiqa_sa,positive,neutral,False,True,positive,True,True,prompt_b_only_correct
+fiqa_sa-valid-000028,fiqa_sa,positive,positive,True,True,positive,True,True,both_correct
+fiqa_sa-valid-000041,fiqa_sa,negative,neutral,False,True,neutral,False,True,both_wrong
+finqa-test-000535,finqa,51.0,The change in the allowance for doubtful accounts in 2008 was an increase of $51.0 million.,True,False,$51.0,True,True,both_correct
+finqa-test-001089,finqa,-29.0,The change in free cash flow from 2005 to 2007 is an increase of $253 million.,False,False,$253,False,True,both_wrong
+finqa-test-001091,finqa,0.08207,The industrial packaging profit margin in 2004 was 8.2%,True,False,0.082,True,True,both_correct
+finqa-train-001048,finqa,3.31,The 6-year total shareholder return on Apple Inc. is 331%.,True,False,The 6-year total shareholder return on Apple Inc. is 331%.,True,False,both_correct
+finqa-train-001794,finqa,0.14936,The percentage change in the redeemable non-controlling interest in 2012 is 14.9%.,True,False,(80.8 - 70.3) / 70.3 * 100 = 14.94%,True,False,both_correct
+finqa-train-002163,finqa,-5.55556,-5.56%,True,True,(30.6 - 28.9) / 30.6 = 0.05555... ≈ 5.6%,False,False,prompt_a_only_correct
+finqa-train-002189,finqa,0.05303,-5.60%,False,True,-5.60%,False,True,both_wrong
+finqa-train-002506,finqa,47501.7,"$47,517.65",False,True,"$47,525.30",False,True,both_wrong
+finqa-train-002884,finqa,0.05782,The percentage increase in inventories balance due to the adoption of LIFO in 2012 is 5.79%.,False,False,The percentage increase in inventories balance due to the adoption of LIFO in 2012 is 5.79%.,False,False,both_wrong
+finqa-train-003520,finqa,-0.01,-1%,True,True,-1%,True,True,both_correct
+finqa-train-004176,finqa,0.0,0,True,True,0,True,True,both_correct
+finqa-train-004393,finqa,0.12821,-11.36%,False,True,-11.36%,False,True,both_wrong
+finqa-train-004545,finqa,-2.0,-2,True,True,-2,True,True,both_correct
+finqa-train-004894,finqa,146.67571,(3636 - 1474) / 1474 * 100 = 146.68%,True,False,(3636 - 1474) / 1474 * 100 = 146.68%,True,False,both_correct
+finqa-train-005468,finqa,1215.0,"The total coal capacity is 545 + 670 = 1,215 MW.",True,False,62 + 545 + 670 = 1277,False,False,prompt_a_only_correct
+finqa-train-005749,finqa,-130.0,-130,True,True,964 - 834 = 130,False,False,prompt_a_only_correct
+finqa-train-006150,finqa,-34.0,-94,False,True,-94,False,True,both_wrong
+finqa-train-006209,finqa,3239.33333,"$9,718",False,True,"$3,239",True,True,prompt_b_only_correct
+finqa-valid-000542,finqa,180041.58004,"$180,041.58",True,True,"$180,041.58",True,True,both_correct
+finqa-valid-000605,finqa,3.50739,0.285,False,True,0.1424 / 0.0406 = 3.507,True,False,prompt_b_only_correct
+financial_mmlu_ko-test-000004,financial_mmlu_ko,4,3,False,True,4,True,True,prompt_b_only_correct
+financial_mmlu_ko-test-000009,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000048,financial_mmlu_ko,1,1,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000054,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000088,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000106,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000120,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000126,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000143,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
+financial_mmlu_ko-test-000167,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000175,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000221,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000229,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000253,financial_mmlu_ko,3,3,True,True,3,True,True,both_correct
+financial_mmlu_ko-test-000302,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000312,financial_mmlu_ko,1,1,True,True,1,True,True,both_correct
+financial_mmlu_ko-test-000353,financial_mmlu_ko,1,1,True,True,4,False,True,prompt_a_only_correct
+financial_mmlu_ko-test-000405,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000429,financial_mmlu_ko,2,2,True,True,2,True,True,both_correct
+financial_mmlu_ko-test-000455,financial_mmlu_ko,4,4,True,True,4,True,True,both_correct
